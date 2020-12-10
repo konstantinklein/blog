@@ -1,0 +1,16 @@
+id = "kkl"
+
+[name]
+display = "Konstantin Klein"
+
+[email]
+username = "kkl"
+host = "konstantinklein.com"
+
+[social]
+email = "mail@konstantinklein.com"
+facebook  = ""
+twitter = "konstantinklein"
+
+[image]
+image = "/images/bluemesquare.jpg"

@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="de">
+  <head>
+  <meta charset="utf-8">
+<title>Zwei-F*ktor-Authentifizierung - Konstantin Klein</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="generator" content="Hugo 0.68.3" /><meta itemprop="name" content="Zwei-F*ktor-Authentifizierung">
+<meta itemprop="description" content="Weiß der Himmel, wie mir gestern morgen ausgerechnet ein FAZ-Artikel in die Timeline gespült wurde. Jedenfalls, es geschah, und ich las Bundesregierung will an E-Mail-Passwörter:
+ In ihrem Entwurf für ein Gesetz gegen Rechtsextremismus und Hassrede hat die Bundesregierung sich auch auf einen neuen Behördenanspruch auf Passwörter zu Onlinediensten geeinigt. Das geht aus einem am Freitag vorgestellten Referentenentwurf des Bundesjustizministeriums hervor. Künftig können demnach Behörden unter bestimmten Voraussetzungen von Diensten wie Google oder Facebook verlangen, Passwörter zu Kundenkonten zu erlangen.">
+<meta itemprop="datePublished" content="2019-12-15T17:09:43&#43;01:00" />
+<meta itemprop="dateModified" content="2019-12-15T17:09:43&#43;01:00" />
+<meta itemprop="wordCount" content="742">
+
+
+
+<meta itemprop="keywords" content="E-Mail,Passwort,2FA,Sicherheit,Gesetz," /><meta property="og:title" content="Zwei-F*ktor-Authentifizierung" />
+<meta property="og:description" content="Weiß der Himmel, wie mir gestern morgen ausgerechnet ein FAZ-Artikel in die Timeline gespült wurde. Jedenfalls, es geschah, und ich las Bundesregierung will an E-Mail-Passwörter:
+ In ihrem Entwurf für ein Gesetz gegen Rechtsextremismus und Hassrede hat die Bundesregierung sich auch auf einen neuen Behördenanspruch auf Passwörter zu Onlinediensten geeinigt. Das geht aus einem am Freitag vorgestellten Referentenentwurf des Bundesjustizministeriums hervor. Künftig können demnach Behörden unter bestimmten Voraussetzungen von Diensten wie Google oder Facebook verlangen, Passwörter zu Kundenkonten zu erlangen." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://konstantinklein.com/posts/zwei-f-ktor-authentifizierung/" />
+<meta property="article:published_time" content="2019-12-15T17:09:43+01:00" />
+<meta property="article:modified_time" content="2019-12-15T17:09:43+01:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Zwei-F*ktor-Authentifizierung"/>
+<meta name="twitter:description" content="Weiß der Himmel, wie mir gestern morgen ausgerechnet ein FAZ-Artikel in die Timeline gespült wurde. Jedenfalls, es geschah, und ich las Bundesregierung will an E-Mail-Passwörter:
+ In ihrem Entwurf für ein Gesetz gegen Rechtsextremismus und Hassrede hat die Bundesregierung sich auch auf einen neuen Behördenanspruch auf Passwörter zu Onlinediensten geeinigt. Das geht aus einem am Freitag vorgestellten Referentenentwurf des Bundesjustizministeriums hervor. Künftig können demnach Behörden unter bestimmten Voraussetzungen von Diensten wie Google oder Facebook verlangen, Passwörter zu Kundenkonten zu erlangen."/>
+<meta name="twitter:site" content="@konstantinklein"/>
+<link rel="stylesheet" href="/css/bundle.min.9dd2c565537d7f5318326fa8197bff9d51e0b29c835d0e399e87f15b891288f7.css" integrity="sha256-ndLFZVN9f1MYMm&#43;oGXv/nVHgspyDXQ45nofxW4kSiPc=">
+        <link rel="stylesheet" href="/css/add-on.css">
+        <link rel="stylesheet" href="/css/custom.css">
+  <link rel='canonical' href='https://konstantinklein.com/'>
+  <link rel="alternate" href="https://konstantinklein.com/index.xml" type="application/rss+xml">
+  <link rel="me" href="https://konstantinklein.com/" />
+  <link rel="me" href="https://twitter.com/konstantinklein/" />
+  <link rel="me" href="https://bonn.social/@konstantinklein" />
+  <link rel="me" href="https://keybase.io/konstantinklein" />
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+            posts
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        
+          
+          
+            <a href="/" class="link"><i class='fas fa-home'></i> Start</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/about/" class="link"><i class='far fa-id-card'></i> Über</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/datenschutz/" class="link"><i class='far fa-compass'></i> Datenschutz</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/impressum/" class="link"><i class='far fa-newspaper'></i> Impressum</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/kontakt/" class="link"><i class='far fa-envelope'></i> Kontakt</a>
+          
+        
+      
+     </menu>
+    
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Zwei-F%2aktor-Authentifizierung&amp;url=https%3a%2f%2fkonstantinklein.com%2fposts%2fzwei-f-ktor-authentifizierung%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkonstantinklein.com%2fposts%2fzwei-f-ktor-authentifizierung%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fkonstantinklein.com%2fposts%2fzwei-f-ktor-authentifizierung%2f&amp;title=Zwei-F%2aktor-Authentifizierung" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkonstantinklein.com%2fposts%2fzwei-f-ktor-authentifizierung%2f&amp;description=Zwei-F%2aktor-Authentifizierung" target="_blank" rel="noopener" class="share-btn pinterest">
+          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Schauen%20Sie%20sich%20diesen%20Beitrag%20an&amp;body=https%3a%2f%2fkonstantinklein.com%2fposts%2fzwei-f-ktor-authentifizierung%2f" target="_blank" class="share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" class="hidden-single-column">
+  <a href="/"><img src="/images/logo.gif" class="square" width="90" alt="K[journ]" /></a>
+  <header>
+    <h1>Konstantin Klein</h1>
+  </header>
+  <main>
+    <p>Irgendwie doch ein Blog. Oder so.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/konstantinklein" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bonn.social/@konstantinklein" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:blog@konstantinklein.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/posts/zwei-f-ktor-authentifizierung/">Zwei-F*ktor-Authentifizierung</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2019-12-15 17:09:43 &#43;0100 CET">
+      15.12.2019
+    </time>
+    <span class="author"></span>
+    
+      <p>4 Minuten</p>
+    
+  </div>
+</header>
+
+  
+
+  <div class="content">
+    <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/privacy.jpg'/>
+    
+  </figure>
+</div>
+	<p>Weiß der Himmel, wie mir gestern morgen ausgerechnet ein FAZ-Artikel in die Timeline gespült wurde. Jedenfalls, es geschah, und ich las <a href="https://www.faz.net/aktuell/wirtschaft/digitec/hassrede-bundesregierung-will-an-e-mail-passwoerter-16535665.html">Bundesregierung will an E-Mail-Passwörter</a>:</p>
+<blockquote>
+<p>In ihrem Entwurf für ein Gesetz gegen Rechtsextremismus und Hassrede hat die Bundesregierung sich auch auf einen neuen Behördenanspruch auf Passwörter zu Onlinediensten geeinigt. Das geht aus einem am Freitag vorgestellten Referentenentwurf des Bundesjustizministeriums hervor. Künftig können demnach Behörden unter bestimmten Voraussetzungen von Diensten wie Google oder Facebook verlangen, Passwörter zu Kundenkonten zu erlangen.</p>
+</blockquote>
+<p>Zunächst führte ich - ungerecht, wie ich am Samstagmorgen sein kann - das auf ein, sagen wir: Missverständnis seitens des FAZ-Autoren zurück. Passwörter abfragen - pfff! Was soll das denn bringen, wo doch inzwischen sogar Tante Ernas Onlineshop Passwörter nur noch verschlüsselt speichert?</p>
+<p>Dann aber kamen auch aus anderen Quellen Artikel in meine Timeline, und ich verstand, dass das, sagen wir: Missverständnis nicht an einem Schreibtisch der FAZ entstanden war: <a href="https://www.heise.de/newsticker/meldung/Justizministerium-WhatsApp-Gmail-Co-sollen-Passwoerter-herausgeben-muessen-4615602.html">Justizministerium: WhatsApp, Gmail &amp; Co. sollen Passwörter herausgeben müssen</a>.</p>
+<h3 id="in-einem-wort-unfug">In einem Wort: Unfug</h3>
+<p>Sagen wir mal so: In einem von der Piratenpartei geführten Justizministerium wäre das nicht passiert. Viel anderer Unfug, ja, sicher, aber das nicht.</p>
+<p>Nochmal: Auch in einem Land, das in Punkto Digitalisierung noch dazulernen kann, sollte sich herumgesprochen haben, dass jeder halbwegs seriöse Diensteanbieter Passwörter <em>verschlüsselt</em> speichert; bei den mir bekannten Lösungen bekommt er das Passwort nie unverschlüsselt zu Gesicht, und wenn der User beim Login sein Passwort eingibt, wird es bereits (<em>Update, s.u.:</em> transport-)verschlüsselt übertragen, auf dem Server dann verschlüsselt und mit dem gespeicherten Hash verglichen - und dann (so soll es jedenfalls sein) vergessen.</p>
+<p>Das gespeicherte verschlüsselte Passwort nützt aber keinem etwas, weil es bei der Eingabe durch Doofe nochmal verschlüsselt wird und mit dem gespeicherten Wert wieder nicht übereinstimmt; rückwärts entschlüsseln lässt sich ein vernünftig verschlüsseltes Passwort aber nicht. Und sog. &ldquo;backdoors&rdquo; einbauen zu wollen, fällt gerade Politikern und Politikerinnen immer wieder als Lösung ein; das ist aber sogar aus der Sicht amerikanischer Geheimdienstler und FBI-Chefs eine dumme Idee, weil derartige Hintertüren leider auch von denen genutzt werden, die sie nicht nutzen sollen.</p>
+<p>Also könnten wir den Gesetzentwurf aus dem (sagte ich es schon? SPD-geführten) Justizministerium zu den Akten legen. Oder kurz darüber nachdenken, was gegen Passwortklau, ob auf Gesetzeswegen oder ungesetzlich, wirkt.</p>
+<p>Na? Richtig: <a href="https://de.wikipedia.org/wiki/Zwei-Faktor-Authentisierung">Zweifaktorenauthentifizierung</a>. Also die Einrichtung, bei der die Kenntnis von Nutzername und Passwort nicht ausreicht zum erfolgreichen Login, sondern ein weiterer Faktor, ein Hardwareschlüssel oder ein <em>one time password</em>, erzeugt von einer entsprechenden App, erforderlich ist. Wer diesen Faktor nicht hat oder nicht kennt, kann sich alle Passwörter der Welt per Gerichtsbeschluss oder auch ohne besorgen - sie nützen ihm nichts. Ha!</p>
+<h3 id="aber-das-große-aber">Aber: Das große Aber</h3>
+<p>Leider hat 2FA, wie ich sie zärtlich nenne, einen Nachteil oder zwei. Weil sie nämlich von den vielen verschiedenen Mail-Clients da draußen, von Thunderbird bis K-9 und zurück, nicht unterstützt wird, bieten viele (die meisten? Alle?) Maildienste an, zwar den Zugang zur Weboberfläche mit 2FA abzusichern, den für die Apps, also über Protokolle wie POP oder IMAP, aber auch dem zu gewähren, der nur das Passwort kennt. Wer das nicht will, kann bei solchen Diensten den Zugang via POP/IMAP sperren - und damit den Zugang von der Mobilquatsche gleich mit, da die gängigen Mailclients für Android und iOS dann vor verschlossenen Türen stehen (und Webmail auf einem Handy ist nun wirklich Quälerei!).</p>
+<p>Einen Ausweg aus dem Dilemma 2FA vs. IMAP bieten nur die Mailanbieter, die eigene Apps zum Mailen anbieten, in denen die 2FA integriert sind. Also solche Datenschutzkünstler wie GMail, Outlook.com, GMX etc.</p>
+<p>Immerhin: Auch der deutsche Anbieter Tutanota bietet eine solche App mit 2FA-Integration an (wobei das eine <a href="https://de.wikipedia.org/wiki/Electron_(Framework)">Electron-</a> bzw. Web-App ist, was die Sache leichter macht). Aber <a href="https://konstantinklein.com/posts/lesen-bildet-ungemein/#stunden-eine-woche-sp%C3%A4ter">dort hat man andere Probleme</a>.</p>
+<h4 id="update">Update</h4>
+<p>Leser Christian F. hat natürlich völlig Recht, wenn er mir schreibt:</p>
+<blockquote>
+<p>Wenn Du schreibst, dass das Passwort bereits verschlüsselt übertragen wird, meinst Du dann, dass die Übertragung verschlüsselt ist? Bei serverseitiger Codeausführung  müsste ja dann JavaScript zum Beispiel das Passwort erst verschlüsseln. Würde tippen, dass das eher selten ist. Oder doch nicht?</p>
+</blockquote>
+<p>Und deshalb habe ich den entsprechenden Absatz weiter oben korrigiert. Wenn das Passwort nicht per Javascript lokal verschlüsselt wird, kommt es nach einem hoffentlich verschlüsselten Transport natürlich in unverschlüsselter Form auf dem Server an, wird dort verschlüsselt und dann mit dem gespeicherten Wert verglichen. Danach wird es verworfen - wenn nicht eine finstere Macht es vorher irgendwo unverschlüsselt gespeichert hat. Aus Angst vor Hackern und den diversen Datenschutzverordnungen macht das aber niemand, der seine sieben Zwetschgen noch beisammen hat.</p>
+
+	
+	<p><em><a href="mailto:blog@konstantinklein.com?subject=Mein Kommentar zu 'Zwei-F%2aktor-Authentifizierung'">Ihre Meinung dazu?</a></em></p>
+	
+  </div>
+  <footer>
+    
+	<ul class="stats">
+  
+    
+    
+      <li class="tags">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/e-mail">E-Mail</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/passwort">Passwort</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/2fa">2FA</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/sicherheit">Sicherheit</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/gesetz">Gesetz</a></li>
+          
+        </ul>
+      </li>
+    
+  
+</ul>
+
+	
+  </footer>
+</article>
+
+
+<div class="pagination">
+  
+    <a href="/posts/weil-es-geht-verdammte-axt/" class="button"><div class="previous"><div>Weil es geht, verdammte Axt!</div></div></a>
+  
+  
+    <a href="/posts/la-lotta-continua/" class="button"><div class="next"><div>La Lotta Continua</div></div></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Letzte Artikel</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/setempe.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/gruebel-gruebel-und-studier/">Grübelgrübel und studier</a></h1>
+          <time class="published" datetime="">10.12.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/busstation.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/bloggen-ist-silber/">Bloggen ist Silber...</a></h1>
+          <time class="published" datetime="">30.11.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/fireworks.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/zwanzig/">Zwanzig!!!</a></h1>
+          <time class="published" datetime="">30.10.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/block.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/writers-block-bastlers-chance/">Writer&#39;s block - Bastlers Chance?</a></h1>
+          <time class="published" datetime="">25.10.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/catbuntu.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/buerogemeinschaft/">Bürogemeinschaft</a></h1>
+          <time class="published" datetime="">22.09.2020</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/posts/" class="button">Mehr erfahren</a>
+        </footer>
+      
+    </section>
+  
+
+  
+
+  
+</section>
+
+      <footer id="site-footer">
+<form action="https://duckduckgo.com/">
+  <input type="text" name="q">
+  <input type="hidden" name="sites" value="konstantinklein.com">
+  <button class="button searchinput" type="submit">Mit DuckDuckGo suchen</button>
+</form>
+  
+      <ul class="socnet-icons">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/konstantinklein" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bonn.social/@konstantinklein" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:blog@konstantinklein.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2018-2020
+      
+        Konstantin Klein, Planet Erde
+      
+    . <br />
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0</a><br />
+    Thema : <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>Ein <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 Port</a> | Unterstützt von: <a href='https://gohugo.io/' title='0.68.3' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+  <p class="h-card vcard">
+	<a href=https://konstantinklein.com/ class="p-name u-url url author metatag" rel="me">
+				Konstantin Klein
+	</a> /
+	<a class="p-nickname u-email email metatag" rel="me" href="mailto:mail@konstantinklein.com">
+				Konstantin
+	</a> 
+	<img class="u-photo" src="/images/bluemesquare.jpg" alt=""/>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+
+      <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.e0c399b948d3cf5c3a5e3badb94023d0b064a19ac39fd8cd79fb9f57fa4d1091.js" integrity="sha256-4MOZuUjTz1w6XjutuUAj0LBkoZrDn9jNefufV/pNEJE="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="de">
+  <head>
+  <meta charset="utf-8">
+<title>chmod a&#43;rwx /bin/freedom - Konstantin Klein</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="generator" content="Hugo 0.68.3" /><meta itemprop="name" content="chmod a&#43;rwx /bin/freedom">
+<meta itemprop="description" content="Es muss so vor 19 Jahren gewesen sein, als ich in meiner damaligen Heimat, einem Vorort von Washington, DC, dieses inzwischen reichlich verwitterte T-Shirt kaufte. Es zeigt die US-Flagge und darunter das Unix/Linux-Kommando chmod, mit dem allen (&quot;a&quot;) das Recht zugewiesen (&quot;&#43;&quot;) wird, das systemweit wichtige Programm Freiheit (&quot;/bin/freedom&quot;) zu lesen, zu schreiben und auszuführen (&quot;rwx&quot;).
+Die Grundlage jeder freiheitlichen Demokratie in Form eines Unix-Befehls! &ldquo;Wie unglaublich amerikanisch!&rdquo; dachte ich mir in jenen friedlichen, im Rückblick beinahe golden schimmernden Monaten vor dem 11.">
+<meta itemprop="datePublished" content="2020-06-11T10:18:23&#43;02:00" />
+<meta itemprop="dateModified" content="2020-06-11T10:18:23&#43;02:00" />
+<meta itemprop="wordCount" content="472">
+
+
+
+<meta itemprop="keywords" content="USA,Trump,Freiheit,Unruhe,BLM,Blogging," /><meta property="og:title" content="chmod a&#43;rwx /bin/freedom" />
+<meta property="og:description" content="Es muss so vor 19 Jahren gewesen sein, als ich in meiner damaligen Heimat, einem Vorort von Washington, DC, dieses inzwischen reichlich verwitterte T-Shirt kaufte. Es zeigt die US-Flagge und darunter das Unix/Linux-Kommando chmod, mit dem allen (&quot;a&quot;) das Recht zugewiesen (&quot;&#43;&quot;) wird, das systemweit wichtige Programm Freiheit (&quot;/bin/freedom&quot;) zu lesen, zu schreiben und auszuführen (&quot;rwx&quot;).
+Die Grundlage jeder freiheitlichen Demokratie in Form eines Unix-Befehls! &ldquo;Wie unglaublich amerikanisch!&rdquo; dachte ich mir in jenen friedlichen, im Rückblick beinahe golden schimmernden Monaten vor dem 11." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://konstantinklein.com/posts/chmod-a-rwx-bin-freedom/" />
+<meta property="article:published_time" content="2020-06-11T10:18:23+02:00" />
+<meta property="article:modified_time" content="2020-06-11T10:18:23+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="chmod a&#43;rwx /bin/freedom"/>
+<meta name="twitter:description" content="Es muss so vor 19 Jahren gewesen sein, als ich in meiner damaligen Heimat, einem Vorort von Washington, DC, dieses inzwischen reichlich verwitterte T-Shirt kaufte. Es zeigt die US-Flagge und darunter das Unix/Linux-Kommando chmod, mit dem allen (&quot;a&quot;) das Recht zugewiesen (&quot;&#43;&quot;) wird, das systemweit wichtige Programm Freiheit (&quot;/bin/freedom&quot;) zu lesen, zu schreiben und auszuführen (&quot;rwx&quot;).
+Die Grundlage jeder freiheitlichen Demokratie in Form eines Unix-Befehls! &ldquo;Wie unglaublich amerikanisch!&rdquo; dachte ich mir in jenen friedlichen, im Rückblick beinahe golden schimmernden Monaten vor dem 11."/>
+<meta name="twitter:site" content="@konstantinklein"/>
+<link rel="stylesheet" href="/css/bundle.min.9dd2c565537d7f5318326fa8197bff9d51e0b29c835d0e399e87f15b891288f7.css" integrity="sha256-ndLFZVN9f1MYMm&#43;oGXv/nVHgspyDXQ45nofxW4kSiPc=">
+        <link rel="stylesheet" href="/css/add-on.css">
+        <link rel="stylesheet" href="/css/custom.css">
+  <link rel='canonical' href='https://konstantinklein.com/'>
+  <link rel="alternate" href="https://konstantinklein.com/index.xml" type="application/rss+xml">
+  <link rel="me" href="https://konstantinklein.com/" />
+  <link rel="me" href="https://twitter.com/konstantinklein/" />
+  <link rel="me" href="https://bonn.social/@konstantinklein" />
+  <link rel="me" href="https://keybase.io/konstantinklein" />
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+            posts
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        
+          
+          
+            <a href="/" class="link"><i class='fas fa-home'></i> Start</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/about/" class="link"><i class='far fa-id-card'></i> Über</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/datenschutz/" class="link"><i class='far fa-compass'></i> Datenschutz</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/impressum/" class="link"><i class='far fa-newspaper'></i> Impressum</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/kontakt/" class="link"><i class='far fa-envelope'></i> Kontakt</a>
+          
+        
+      
+     </menu>
+    
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=chmod%20a%2brwx%20%2fbin%2ffreedom&amp;url=https%3a%2f%2fkonstantinklein.com%2fposts%2fchmod-a-rwx-bin-freedom%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkonstantinklein.com%2fposts%2fchmod-a-rwx-bin-freedom%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fkonstantinklein.com%2fposts%2fchmod-a-rwx-bin-freedom%2f&amp;title=chmod%20a%2brwx%20%2fbin%2ffreedom" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkonstantinklein.com%2fposts%2fchmod-a-rwx-bin-freedom%2f&amp;description=chmod%20a%2brwx%20%2fbin%2ffreedom" target="_blank" rel="noopener" class="share-btn pinterest">
+          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Schauen%20Sie%20sich%20diesen%20Beitrag%20an&amp;body=https%3a%2f%2fkonstantinklein.com%2fposts%2fchmod-a-rwx-bin-freedom%2f" target="_blank" class="share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" class="hidden-single-column">
+  <a href="/"><img src="/images/logo.gif" class="square" width="90" alt="K[journ]" /></a>
+  <header>
+    <h1>Konstantin Klein</h1>
+  </header>
+  <main>
+    <p>Irgendwie doch ein Blog. Oder so.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/konstantinklein" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bonn.social/@konstantinklein" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:blog@konstantinklein.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/posts/chmod-a-rwx-bin-freedom/">chmod a&#43;rwx /bin/freedom</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2020-06-11 10:18:23 &#43;0200 CEST">
+      11.06.2020
+    </time>
+    <span class="author"></span>
+    
+      <p>3 Minuten</p>
+    
+  </div>
+</header>
+
+  
+
+  <div class="content">
+    <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/chmod.jpg'/>
+    
+  </figure>
+</div>
+	<p>Es muss so vor 19 Jahren gewesen sein, als ich in meiner damaligen Heimat, einem Vorort von Washington, DC, dieses inzwischen reichlich verwitterte T-Shirt kaufte. Es zeigt die US-Flagge und darunter das Unix/Linux-Kommando <strong>chmod</strong>, mit dem allen (&quot;<strong>a</strong>&quot;) das Recht zugewiesen (&quot;<strong>+</strong>&quot;) wird, das systemweit wichtige Programm <em>Freiheit</em> (&quot;<strong>/bin/freedom</strong>&quot;) zu lesen, zu schreiben und auszuführen (&quot;<strong>rwx</strong>&quot;).</p>
+<p>Die Grundlage jeder freiheitlichen Demokratie in Form eines Unix-Befehls! &ldquo;Wie unglaublich amerikanisch!&rdquo; dachte ich mir in jenen friedlichen, im Rückblick beinahe golden schimmernden Monaten vor dem 11. September 2001, dem Tag, der schließlich der Regierung unter George W. Bush und vor allem seinem Vize Dick &ldquo;Dick&rdquo; Cheney den Vorwand für den neokonservativen Neo-Imperalismus lieferte, der die Machtpolitik der USA seither (und ja, auch unter Barack Obama!) bestimmt.</p>
+<p>Nach diesem 11. September traute ich mich eine Zeitlang übrigens nicht mehr, das T-Shirt zu tragen - in Europa nicht, um nicht in den Verdacht unkritischen Hurra-Amerikanismus zu geraten (denn wer kennt schon Unix-Befehle?), und in den USA nicht, weil meine dortigen Mitbewohner in diesen Monaten nur ein/en &ldquo;Bin&rdquo; kannten, und der hieß nicht &ldquo;Freedom&rdquo;, sondern &ldquo;Laden&rdquo;.</p>
+<h3 id="das-schweigen-eines-journalisten">Das Schweigen eines Journalisten</h3>
+<p>Natürlich verfolge ich auch 17 Jahre nach meiner Rückkehr nach Europa alles, was sich in den USA tut, mit besonderen Interesse; Leser dieser Seiten wissen das. Ich habe auch meistens eine Meinung zu dem, was sich da tut. Und trotzdem - Leser dieser Seiten werden sich vielleicht schon wundern - habe ich in den letzten Wochen geschwiegen zum Tod des George Floyd in Minneapolis, zu den Protesten, die sich nicht zum ersten Mal, aber stärker als jemals zuvor in den letzten 50 Jahren erhoben haben, zu den Reaktionen der US-amerikanischen, nun ja: Obrigkeit, die durch Rassismus, Ignoranz, Hass, der völligen Verkennung der Vorgänge und auch durch die Panik eines komplett überforderten Präsidenten und seiner Berater geprägt sind. Überall im Netz und daneben haben die Leute eine Meinung dazu - und ich habe <em>keine</em>?</p>
+<p>Natürlich habe ich eine. Aber mir bleibt in den letzten Wochen schlicht die Sprache weg, so entsetzt bin ich von all dem, was da in den USA vor sich geht.</p>
+<p>Nicht, dass das nicht die absehbare Konsequenz der vor allem republikanischen Politik wäre, die schon seit Mitte der 90er Jahre Machtgewinn und Machterhalt über die Bedürfnisse einer tief gespaltenen Gesellschaft stellt.</p>
+<p>Deshalb mein wochenlanges Schweigen. Ich bin buchstäblich sprachlos.</p>
+<h3 id="in-other-news">In other news&hellip;</h3>
+<p>Daneben denke ich mir, dass ich in diesen Zeiten mit einer anderen Form des Bloggens vielleicht besser zurechtkäme, mit kürzeren Texten, manchmal auch einfach nur Linksammlungen, auch einer flexibleren Seitenstruktur. Mit einem anderen, einem dynamischen Blogsystem wäre das schneller umzusetzen - und das ausgerechnet jetzt, wo ich mit Hugo <a href="../im-bastelkeller/">endlich Fortschritte</a> gemacht hatte!</p>
+<p>Nun ja, ich habe im Juli zwei Wochen Urlaub und keine Reisepläne - und möglicherweise Zeit zum Basteln. Und dann käme mein Hugo vielleicht auch besser mit veränderten Blogbedürfnissen zurecht.</p>
+
+	
+	<p><em><a href="mailto:blog@konstantinklein.com?subject=Mein Kommentar zu 'chmod%20a%2brwx%20%2fbin%2ffreedom'">Ihre Meinung dazu?</a></em></p>
+	
+  </div>
+  <footer>
+    
+	<ul class="stats">
+  
+    
+    
+      <li class="tags">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/usa">USA</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/trump">Trump</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/freiheit">Freiheit</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/unruhe">Unruhe</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/blm">BLM</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/blogging">Blogging</a></li>
+          
+        </ul>
+      </li>
+    
+  
+</ul>
+
+	
+  </footer>
+</article>
+
+
+<div class="pagination">
+  
+    <a href="/posts/hompe-pt-2/" class="button"><div class="previous"><div>Hompe, pt. 2</div></div></a>
+  
+  
+    <a href="/posts/ohai-hey/" class="button"><div class="next"><div>Ohai, HEY!</div></div></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Letzte Artikel</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/setempe.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/gruebel-gruebel-und-studier/">Grübelgrübel und studier</a></h1>
+          <time class="published" datetime="">10.12.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/busstation.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/bloggen-ist-silber/">Bloggen ist Silber...</a></h1>
+          <time class="published" datetime="">30.11.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/fireworks.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/zwanzig/">Zwanzig!!!</a></h1>
+          <time class="published" datetime="">30.10.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/block.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/writers-block-bastlers-chance/">Writer&#39;s block - Bastlers Chance?</a></h1>
+          <time class="published" datetime="">25.10.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/catbuntu.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/buerogemeinschaft/">Bürogemeinschaft</a></h1>
+          <time class="published" datetime="">22.09.2020</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/posts/" class="button">Mehr erfahren</a>
+        </footer>
+      
+    </section>
+  
+
+  
+
+  
+</section>
+
+      <footer id="site-footer">
+<form action="https://duckduckgo.com/">
+  <input type="text" name="q">
+  <input type="hidden" name="sites" value="konstantinklein.com">
+  <button class="button searchinput" type="submit">Mit DuckDuckGo suchen</button>
+</form>
+  
+      <ul class="socnet-icons">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/konstantinklein" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bonn.social/@konstantinklein" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:blog@konstantinklein.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2018-2020
+      
+        Konstantin Klein, Planet Erde
+      
+    . <br />
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0</a><br />
+    Thema : <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>Ein <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 Port</a> | Unterstützt von: <a href='https://gohugo.io/' title='0.68.3' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+  <p class="h-card vcard">
+	<a href=https://konstantinklein.com/ class="p-name u-url url author metatag" rel="me">
+				Konstantin Klein
+	</a> /
+	<a class="p-nickname u-email email metatag" rel="me" href="mailto:mail@konstantinklein.com">
+				Konstantin
+	</a> 
+	<img class="u-photo" src="/images/bluemesquare.jpg" alt=""/>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+
+      <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.e0c399b948d3cf5c3a5e3badb94023d0b064a19ac39fd8cd79fb9f57fa4d1091.js" integrity="sha256-4MOZuUjTz1w6XjutuUAj0LBkoZrDn9jNefufV/pNEJE="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

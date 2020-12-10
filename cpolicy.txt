@@ -1,0 +1,1 @@
+Header set Content-Security-Policy "default-src 'none'; img-src 'self' https://fontawesome.com/; script-src 'self' 'nonce-7f26c2726c'; frame-src 'self' https://mastodon.social; style-src 'self' 'unsafe-inline' https://fontawesome.com/; frame-ancestors 'none'; base-uri 'self'; form-action 'none'"

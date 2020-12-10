@@ -1,0 +1,361 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konstantin Klein</title>
+    <link>https://konstantinklein.com/</link>
+    <description>Recent content on Konstantin Klein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 10 Dec 2020 15:43:02 +0100</lastBuildDate>
+    
+        <atom:link href="https://konstantinklein.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grübelgrübel und studier</title>
+      <link>https://konstantinklein.com/posts/gruebel-gruebel-und-studier/</link>
+      <pubDate>Thu, 10 Dec 2020 15:43:02 +0100</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/gruebel-gruebel-und-studier/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Never touch a running system.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Never touch a running system!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ja doch. Zum letzten Mal habe ich &lt;a href=&#34;https://konstantinklein.com/posts/im-bastelkeller/&#34;&gt;diesen Satz hier zitiert - und verletzt&lt;/a&gt;. Und &lt;a href=&#34;https://konstantinklein.com/posts/bloggen-ist-silber/&#34;&gt;an dieser Stelle&lt;/a&gt; habe ich - gar nicht lange her - mehr oder weniger offiziell verkündet, dass ich es &lt;em&gt;doch&lt;/em&gt; wieder tun werde - einfach, damit &lt;del&gt;in meinem Urlaub was passiert&lt;/del&gt; ich nicht jedesmal, wenn ich diese Seiten füttern will, ich einen ganz bestimmten Rechner &lt;del&gt;abstauben&lt;/del&gt; starten muss, auf dem diese Hugo-Installation nun mal zuhause ist. Stattdessen möchte ich auch, wie a.a.O. behauptet, vom iPad aus bloggen können. Weil es geht™ - bzw. eben gerade (noch) nicht.&lt;/p&gt;
+&lt;p&gt;Nun ja. Die Absicht habe ich vor elf Tagen verkündet, und seitdem ist nicht viel passiert. Man hat schließlich Urlaub. Aber zwei Möglichkeiten habe ich mir in dieser Zeit schon mal überlegt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ich bleibe bei Hugo, weil &lt;em&gt;never touch&lt;/em&gt; usw., ziehe aber alles um auf meinen ollen Github-Account, auf dem ich vor sechs Jahren schon mal herumexperimentiert habe, damals mit &lt;a href=&#34;http://octopress.org&#34;&gt;Octopress&lt;/a&gt;, und letztlich nicht erfolgreich. Sobald es dort ist, verknüpfe ich es mit &lt;a href=&#34;https://forestry.io/&#34;&gt;Forestry&lt;/a&gt; (mit einem herzlichen Dank an den Stammkommentator, der mich darauf aufmerksam gemacht hat!), das mich mit einem ferngesteuerten Hugo auf meine Daten zugreifen lässt - also im Browser. Und dann muss ich nur noch diese Seiten als &lt;em&gt;Github Pages&lt;/em&gt; hosten, und alles ist in Butter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Oder&amp;hellip;&lt;/em&gt; ich steige wieder - Achtungachtung! - auf Wordpress um, aber nicht in aller Öffentlichkeit, sondern nur im Heimnetz, blogge dort - nee, &lt;em&gt;hier&lt;/em&gt;! - fröhlich vor mich hin, exportiere alles als statische Seiten und lade den Kladderadatsch dann auf meinen treuen Server hoch, der auch Ihnen gerade diese Seiten serviert hat.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Beides hat so seine Nachteile. Für Lösung No. 1 muss ich mich erst in das ganze Githubpagesgedöns einfrickeln, das mir - ich geb&amp;rsquo;s zu - ein wenig Ehrfurcht einjagt. Und für die andere Lösung muss ich eine WordPress-Seite bauen, die mir auch gefällt, dann alle Inhalte Stück für Stück rübertragen, weil es keine umfassende Importlösung gibt (und ich keine Lust habe, den Kram direkt in die Datenbank zu kippen, was bei meiner Nicht-Übung auch seine Zeit dauern würde) - und dann hätte ich immer noch die Aufgabe, jedesmal auf das gute olle (S)FTP zurückzugreifen, um alles auf den Server zu packen.&lt;/p&gt;
+&lt;p&gt;Wenn ich mir das jetzt so angucke&amp;hellip; dann werde ich mich wohl in die steile Lernkurve von Lösung No. 1 hineinlegen müssen. Oder auch nicht, und ich mache etwas für mich eher Untypisches: Ich lasse das System zur Abwechslung mal in Frieden und blogge weiter mit meinem lokalen Hugo. So wie jetzt gerade.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nachtrag:&lt;/strong&gt; Am liebsten wäre mir ja eine Lösung, wie sie ausgerechnet Blogger (muss ich das jetzt verlinken?) 2006 oder 2007 anbot: Der Mensch schrieb auf blogger.com, gehostet wurde das Produkt aber automatisch als statische Seiten via FTP auf einem Server der eigenen Wahl. Sogar eine Kommentarfunktion gab es da, natürlich über die Blogger-Infrastruktur und mit einer automatischen Aktualisierung der Seite via FTP. Aber wer sich schon damals Sorgen um seine Daten machte, musste die Kommentarfunktion einfach nicht nutzen. Leider hat Google diese Option dichtgemacht und erlaubt nur noch das Hosting auf Blogger-Domains.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bloggen ist Silber...</title>
+      <link>https://konstantinklein.com/posts/bloggen-ist-silber/</link>
+      <pubDate>Mon, 30 Nov 2020 19:05:44 +0100</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/bloggen-ist-silber/</guid>
+      <description>&lt;p&gt;&amp;hellip; Nicht-Bloggen aber deshalb noch lange nicht Gold. Und damit der November nicht ganz ohne neuen Inhalt vergeht, hier schnell noch etwas aus der Werkstatt. Bzw. aus dem, was vor der Werkstatt kommt (oder kommen sollte): der Denk-Statt.&lt;/p&gt;
+&lt;p&gt;Dabei ist das Problem zur Abwechslung nicht, dass mir nichts einfiele. So habe ich u.a. dringend vor, in den nächsten 24 Tagen einen Text über eine LP abzuwerfen, die ich vor 50 (!) Jahren zu Weihnachten bekam, und die in den folgenden 50+ Jahren eine besondere Bedeutung für mich haben sollte (Für die Jüngeren, die nicht wissen, was eine LP ist oder war: eine runde, meist schwarze Scheibe von 30 cm Durchmesser aus PVC. Was man mit dieser Scheibe machte&amp;hellip;? Freut Euch auf den Text, den ich dazu noch schreiben muss!).&lt;/p&gt;
+&lt;p&gt;Nein, der Grund der Sendepause der letzten 31 Tage ist ein anderer: Hugo.&lt;/p&gt;
+&lt;h3 id=&#34;der-schuldige&#34;&gt;Der Schuldige&lt;/h3&gt;
+&lt;p&gt;Doch, einer muss ja schuld sein, wenn sich hier nichts tut. Und das ist in diesem Fall eben &lt;a href=&#34;https://konstantinklein.com/posts/hugo&#34;&gt;Hugo, das CMS&lt;/a&gt;, mit dem ich diese Seiten statisch erzeuge, bevor ich sie auf den Server packe. Die Eigenheit eines solchen Systems ist, dass es in der Standardkonfiguration auf einem und &lt;em&gt;nur&lt;/em&gt; einem Rechner zuhause ist, und dass das Blog nur von diesem einen Rechner aus gefüttert werden kann.&lt;/p&gt;
+&lt;p&gt;Zu &lt;em&gt;meinen&lt;/em&gt; Eigenheiten gehört dagegen, dass sich meine Arbeitsweisen von Zeit zu Zeit ändern. Und derzeit findet (fast) alles Digitale, das nicht mit meiner Lohnarbeit zu tun hat, auf meinem (staun!) iPad statt, nicht auf dem Windows-PC oder dem Linux-Laptop, auf dem ich gerade diese Zeilen tippe. Und es begab sich also zu dieser Zeit, dass der Laptop sanft im Regal verstaubte, und das Blog mit ihm.&lt;/p&gt;
+&lt;h3 id=&#34;der-weg-ist-das-ziel-oder-so&#34;&gt;Der Weg ist das Ziel. Oder so&lt;/h3&gt;
+&lt;p&gt;Natürlich gibt es Wege, diesen Zustand zu ändern. Und die Suche nach einem dieser Wege wurde gerade vor einer Viertelstunde umso dringender, als der Laptop nicht starten wollte und zweimal hintereinander in das Linux-Equivalent eines &lt;a href=&#34;https://de.wikipedia.org/wiki/Bluescreen_(Windows)&#34;&gt;BSOD&lt;/a&gt; rauschte. Ja, genau, &lt;em&gt;der&lt;/em&gt; Laptop, auf dem die einzige vollständige Kopie dieses Blogs lebt (Backups gibt es zwar, aber komischerweise nicht vollständig - wie kommt&amp;rsquo;s?).&lt;/p&gt;
+&lt;p&gt;Der Weg des geringsten Widerstandes wäre nun, ein handelsübliches Blog- oder CM-System auf den Server zu bügeln, die zweieinhalb Jahre an Inhalten rüberzuschaufeln, und gut. Aber der Weg des geringsten Widerstandes ist einerseits unter meiner Würde, andererseits habe ich drei Wochen Resturlaub vor mir (ab Freitag), die gefüllt werden wollen, und drittens hat eine kurze Erwähnung des Problems genügt, dass mein Stammkommentator Peter van I. mich mit Serien von Links &lt;del&gt;zuschüttete&lt;/del&gt; beglückte zu Möglichkeiten, Hugo (oder auch ein anderes System) von mehreren unterschiedlichen Geräten aus bespielen zu können. Viele dieser Möglichkeiten haben in der einen oder anderen Form mit Github zu tun, aber warum nicht? Damit habe ich vor einigen Jahren schon mal gebastelt, und was dabei herauskam, hatte doch wirklich drei Tage lang funktioniert.&lt;/p&gt;
+&lt;p&gt;Es kann also passieren, dass es vor Weihnachten an dieser Stelle noch den einen oder anderen Werkstattbericht gibt. Und den Text über die LP natürlich auch.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Zwanzig!!!</title>
+      <link>https://konstantinklein.com/posts/zwanzig/</link>
+      <pubDate>Fri, 30 Oct 2020 13:50:50 +0100</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/zwanzig/</guid>
+      <description>&lt;p&gt;Es ist sicher einer der Gründe, warum es dieses Blog, wenn auch in verschiedenen Erscheinungsformen und unter verschiedenen (und unterschiedlich intelligenten) Titeln, bis zu diesem Tag gibt. Denn vorher aufgegeben zu haben (nicht, dass ich das nie auch nur in Erwägung gezogen oder das eine oder andere Mal tatsächlich verkündet hätte) wäre nun wirklich blöd.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Datum:&lt;/strong&gt; 30. Oktober 2000. &lt;strong&gt;Ort der Handlung:&lt;/strong&gt; Falls Church, ein Vorort von Washington. &lt;strong&gt;Tatbestand:&lt;/strong&gt; Am späten Abend dieses 30. Oktober (früher Morgen europäischer Winterzeit) veröffentlichte ich zum ersten Mal etwas, von dem ich noch einige weitere Wochen lang nicht wissen sollte, dass man es &amp;ldquo;Blogpost&amp;rdquo; nennt (wir wussten ja nix, wir hatten nix, und wir mussten alles zu Fuß &amp;amp; so).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yay!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Die technischen Umstände dessen, was damals und in den Jahren seither passierte, &lt;a href=&#34;https://konstantinklein.com/posts/ein-rueckblick-oder-so/&#34;&gt;habe ich hier schon aufgeschrieben&lt;/a&gt;. Viel spannender war aber - damals zumindest -, was man, also im konkreten Falle ich, mit dieser Technik anstellen konnte.&lt;/p&gt;
+&lt;h3 id=&#34;verdamp-lang-her&#34;&gt;Verdamp lang her&lt;/h3&gt;
+&lt;p&gt;Kann man sich heute gar nicht mehr vorstellen: Google war erst etwas mehr als drei Jahre alt, Amazon gerade mal sechs und ebay fünf, iPods kamen erst ein Jahr später auf den Markt, von iPhones oder gar iPads ganz zu schweigen. Und Twitter, Facebook und alles, was man heute fälschlich als &lt;em&gt;Soziale&lt;/em&gt; Medien bezeichnet, lagen noch in weiter Zukunft, ebenso wie die Influencer-Influenza, &lt;em&gt;hate speech&lt;/em&gt;, im Netz verbreitete Verschwörungstheorien etc.&lt;/p&gt;
+&lt;p&gt;Es war in vielerlei Hinsicht eine unschuldigere Zeit, im Netz und außerhalb, auch wenn die 2000er US-Wahl nur ein paar Tage entfernt war und der &lt;a href=&#34;https://de.wikipedia.org/wiki/Bush_v._Gore&#34;&gt;mit ihr verbundene Rechtsstreit&lt;/a&gt; auch.&lt;/p&gt;
+&lt;p&gt;Das Netz war für die allermeisten von uns noch - ha, ha - Neuland, etwas, wo man lesen und gucken und auch schon einkaufen konnte; aber selber aktiv werden, sein eigener Chefredakteur, sein eigener Sender sein, das ging damals nur mit sehr viel Geld - oder mit einem Weblog.&lt;/p&gt;
+&lt;p&gt;Und was hatten wir - OK, was hatte &lt;em&gt;ich&lt;/em&gt; - für idealistische Vorstellungen: Freier Wissens- und Meinungsaustauch, Meinungs- und Redefreiheit für alle, vielleicht sogar eine neue Qualität von Demokratie - &lt;em&gt;hach!&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;idealismus-ist-was-für-idealisten&#34;&gt;Idealismus ist was für Idealisten&lt;/h3&gt;
+&lt;p&gt;Stellen wir Idealisten, wir enttäuschten, uns mal kurz vor, die technische Entwicklung wäre auf diesem Stand stehengeblieben. Dann hätte nicht nur die Microsoft-Entscheidung, die Weiterentwicklung des Internet Explorer einzustellen, bis heute gruselige Bedeutung, sondern es wäre uns auch eine Menge erspart geblieben. Oder können wir uns einen Donald J. Trump vorstellen, der nächtelang mit editthispage.com oder von mir aus einer frühen Version von MovableType kämpft, um dann seinen Unsinn loszuwerden? Nein, können wir nicht. Wollen wir auch nicht.&lt;/p&gt;
+&lt;p&gt;20 Jahre später sind Blogs, von löblichen, aber doch eher wenigen Ausnahmen abgesehen, etwas, das Firmen anstelle eines Newsletters betreiben oder auch zusammen mit einem solchen. Der Bär steppt anderswo, und er steppt zum Teil auf erschreckend niedrigem Niveau. Die sozialen Verknüpfungen, die wir uns vor 20 Jahren erhofft haben, und die damals auch durchaus zustande kamen, finden heute als, nun ja: Service von privatwirtschaftlichen oder auch staatlich kontrollierten Konzernen statt, irgendwer will immer Geld verdienen und/oder andere Leute vom eigenen Seich überzeugen, der Ton im Netz ist ungleich rauer und unangenehmer geworden (obwohl einem auch im Usenet schon die Fetzen um die Ohren fliegen konnten), und all das ist auch ein Grund dafür, dass ich inzwischen nicht mehrere Male am Tag einen Blogpost absetze, sondern, wenn&amp;rsquo;s hochkommt, mehrere Male im Monat.&lt;/p&gt;
+&lt;p&gt;Schade eigentlich. Ist Bloggen im klassischen Sinne wirklich das neue Strümpfestricken geworden, harmlos und nicht sonderlich populär?&lt;/p&gt;
+&lt;h4 id=&#34;kommentar&#34;&gt;Kommentar&lt;/h4&gt;
+&lt;p&gt;Wenig überraschend hat sich Stammleser Peter van I. mit ein paar &lt;em&gt;quick thoughts&lt;/em&gt; zu Wort gemeldet, die nicht nur auf den ersten Blick mehr waren, als ich in diesem Text untergebracht hatte. Kürzen ist also angesagt.&lt;/p&gt;
+&lt;p&gt;Und während ich eher der nebligen Herbststimmung nachgebe, wird Peter deutlich:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I don&amp;rsquo;t think blogging has lost its allure over the years but the rise of social media has significantly contributed to its being pushed out of the eye of those scouring the interwebs. The popularity of handheld devices making it possible to interact easily via social media has given an easy virtual voice to The Great Unwashed. No education whatsoever required. A short attention span and a gullible attitude are most welcome. Disguise your inadequacies and insecurities behind mindless banter. [&amp;hellip;] One click is all that takes. [&amp;hellip;] The inability to finish a thought or write a simple sentence without glaring typos is no longer a deterrent. Just hammer away on your virtual keyboard every waking minute and try to outshine your peers in the &amp;lsquo;brain fart&amp;rsquo; department.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hoppala. Aber nicht nur die Fachmedien für &lt;em&gt;kurze&lt;/em&gt; Aufmerksamkeitsspannen bekommen ihr Fett weg:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Finally, I feel I must address an increasingly popular alternative to blogging (used mostly by bloggers, it seems): podcasting. Those of advanced years will remember it from back in the day. Two or more people sit in front of a microphone and discuss something, tell stories, or whatever. Sadly, many of them think they&amp;rsquo;re God&amp;rsquo;s gift to audio broadcasters. Mumbling, indecipherable accents, often talking without structure or a semblance of an agreed-upon subject. Interrupting one another, drifting off-topic for the sake of some stupid joke or apparently becoming aroused upon hearing their own voices. STOP IT! [&amp;hellip;]&lt;/p&gt;
+&lt;p&gt;If you think writing can be easily substituted by podcasting you&amp;rsquo;re wrong. Podcasting is for lazy wimps, it&amp;rsquo;s for the literary insecure. If you find you need more than 280 characters to tell something you think may interest an audience: start blogging. Delete all your social media accounts, brush up on your language skills, and just write. Any subject will do. And remember: practice makes perfect. Blogging separates the thinkers from the blabbers.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ich finde, der Mann sollte bloggen. Unbedingt.&lt;/p&gt;
+&lt;p&gt;Was er dabei übersieht - oder ich habe es nicht deutlich genug herausgelesen: die Rolle der Zugangsschwelle. Wenn ich &lt;a href=&#34;https://konstantinklein.com/posts/writers-block-bastlers-chance/&#34;&gt;z.B. an dieser Stelle über technische Hürden schreibe&lt;/a&gt;, dann wirkt das auf Noch-nicht-Blogger mit Sicherheit abschreckend. Es hat schon seinen Grund, weshalb WordPress mit seiner Dreiklick-Installation so erfolgreich ist, und wem das noch zu viel ist, kann sich mit einem fertigen System und unter Aufgabe weiter Teile seiner Privatsphäre &lt;em&gt;instantly&lt;/em&gt; ausmähren (schreibt man das so?). Und es gibt genug Beispiele, die zumindest aus der Sicht des begeisterten Publikums als Erfolgsmodelle durchgehen. Trump hat 87 Millionen Follower. Ich nicht.&lt;/p&gt;
+&lt;h4 id=&#34;pingback&#34;&gt;Pingback&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;(Ja, auch sowas kann &lt;del&gt;Gabriele Henkel&lt;/del&gt; der Mensch mit der Hand machen, vorausgesetzt, man findet es z.B. im &lt;a href=&#34;https://feedly.com/&#34;&gt;Feedreader&lt;/a&gt; - auch so eine Sache aus uralten Zeiten)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ralf G. aus K., bekannt als &lt;a href=&#34;https://uninform.at!&#34;&gt;Der Uninformat&lt;/a&gt;, Untertitel: &amp;ldquo;Wald- und Wiesen-Weblog 5.0 Qualitäts-Bloggen seit 2002&amp;rdquo;, also auch schon eine ganze Zeitlang dabei und &lt;em&gt;still going strong&lt;/em&gt;, &lt;a href=&#34;https://uninform.at/2020/10/31/struempfestricken/&#34;&gt;gratuliert mir bzw. diesen Seiten zum Jubiläum&lt;/a&gt;, regt sich ebenfalls und zu Recht über die zunehmende Unbenutzbarkeit sozialer Medien auf und greift den Rat des &amp;ldquo;mysteriösen Stammkommentators&amp;rdquo; zum Bloggen und Weiterbloggen auf:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gute Idee. Schöner Vorsatz. Müsste man dann halt auch machen! Lasst uns Strümpfe stricken!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Writer&#39;s block - Bastlers Chance?</title>
+      <link>https://konstantinklein.com/posts/writers-block-bastlers-chance/</link>
+      <pubDate>Sun, 25 Oct 2020 16:06:30 +0100</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/writers-block-bastlers-chance/</guid>
+      <description>&lt;p&gt;Mehr als ein Monat ist &lt;a href=&#34;https://konstantinklein.com/posts/buerogemeinschaft/&#34;&gt;der letzte Eintrag&lt;/a&gt; inzwischen alt. In diesem Monat habe ich u.a. Home Office betrieben und optimiert (auf die Idee, meinen privaten 24-Zöller an den Dienstlaptop anzuschließen, um nicht ausschließlich auf dem 14-Zöller des Laptops starren zu müssen, hätte ich Dödel wirklich früher kommen können!), mich weiter mit &lt;a href=&#34;https://konstantinklein.com/posts/world-meet-toto/&#34;&gt;His Totoness&lt;/a&gt; angefreundet, den Spätsommer in den Vollherbst übergehen sehen, die täglich neuen Coronazahlen mit Sorge beobachtet, mich immer mehr über die Daueraufregung in meiner Twittertimeline daueraufgeregt, mit steigender Panik den weltweiten Trend zum Populismus betrachtet - alles mögliche eben.&lt;/p&gt;
+&lt;p&gt;Nur gebloggt habe ich nicht. Warum nicht?&lt;/p&gt;
+&lt;h3 id=&#34;a-severe-case-of-writers-block&#34;&gt;A severe case of writer&amp;rsquo;s block?&lt;/h3&gt;
+&lt;p&gt;Ach nee, soweit würde ich nicht gehen, obwohl es meiner derzeitigen Stimmung entgegen kommt, dass meine berufliche Tätigkeit (man erinnert sich: hat auch was mit Schreiben zu tun) in diesen Monaten eher, sagen wir: administrativer als kreativer Art ist.&lt;/p&gt;
+&lt;p&gt;Es hat wohl eher damit zu tun, dass das Leben als Homesiedler mit coronabedingter Kontaktscheu nicht so rasend spannend ist; und die täglichen Abenteuer mit einem scheuen Hauskater sind auch überschaubar und für alle Nichtbeteiligten von begrenztem Unterhaltungswert.&lt;/p&gt;
+&lt;p&gt;Ein Stammleser hat das gemerkt und mir tröstende Worte gemailt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I sympathise with an occasional bout of writer&amp;rsquo;s block. Or lack of inspiration, whatever you like to call it.
+But instead of writing inspired prose, there&amp;rsquo;s always tinkering.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Klar, mir muss nur einer einen Floh ins Ohr setzen, und schon bin ich vom eigentlichen Problem abgelenkt.&lt;/p&gt;
+&lt;h3 id=&#34;der-floh-im-ohr&#34;&gt;Der Floh im Ohr&lt;/h3&gt;
+&lt;p&gt;&amp;lsquo;s isch wahr: Schon früher, zu WordPress- oder noch länger zurückliegenden Zeiten, habe ich Ideen- und Themenmangel gerne mit Gebastel unter der Motorhaube des jeweiligen Blogs überspielt. Das könnte ich mit Hugo, der derzeitigen Engine, ja auch - wenn Hugo nicht ein zwar rasend schnelles, aber gleichzeitig rasend verbasteltes System wäre. Ich gebe nochmal zurück zum Stammleser:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hugo is still showing very regular updates but I&amp;rsquo;m sensing a growing annoyance, trawling Hugo-related (re)views, of it becoming too complicated. Trying to be the Swiss army knife of SSG&amp;rsquo;s. I&amp;rsquo;m a regular visitor to the Hugo Discourse pages: &lt;a href=&#34;https://discourse.gohugo.io/&#34;&gt;https://discourse.gohugo.io/&lt;/a&gt; and I&amp;rsquo;m astounded to see how many people are asking for help with very specific (even outlandish) use cases. Moreover, those pages are not really curated so possibly golden nuggets are almost impossible to find. And there&amp;rsquo;s a recurring constant in the topics: the Hugo documentation is (still) far from perfect. Despite (or perhaps, because of) the ongoing involvement of a handful of people. FWIW, I think it&amp;rsquo;s beyond salvage, which is a real shame.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(Ich gebe zu: Ich habe den langen Absatz genutzt, um mit Toto dem Immer-noch-etwas-Schreckhaften zu spielen. Muss auch mal sein. Entschuldigung.)&lt;/p&gt;
+&lt;p&gt;Wo waren wir? Ach ja, &lt;em&gt;beyond salvage&lt;/em&gt;. Hm. Soweit würde ich gar nicht gehen; schließlich habe ich hier ein System zusammengeschustert, mit dem ich bis auf weiteres fröhlich (?) vor mich hin bloggen könnte. Es ist stabil, schnell - und unflexibel.&lt;/p&gt;
+&lt;p&gt;Das habe ich &lt;a href=&#34;https://konstantinklein.com/posts/back-to-the-roots/&#34;&gt;schon früher&lt;/a&gt; ein wenig bejammert. Natürlich kann ich auch ein Hugo-Blog an veränderte Umstände/Anforderungen/&lt;em&gt;whatever&lt;/em&gt; anpassen, nur einfach ist es halt nicht.&lt;/p&gt;
+&lt;h3 id=&#34;on-the-road-again&#34;&gt;On the ROAD again&amp;hellip;?&lt;/h3&gt;
+&lt;p&gt;In der schon reichlich zitierten Mail hat der Stammleser mir &lt;a href=&#34;https://www.11ty.dev/&#34;&gt;Eleventy&lt;/a&gt; und/oder &lt;a href=&#34;https://www.getzola.org/&#34;&gt;Zola&lt;/a&gt; als mögliche künftige Blogengines ans ramponierte Herz gelegt.&lt;/p&gt;
+&lt;p&gt;Und was mache ich? Ich gucke mich außerdem auch noch &lt;a href=&#34;https://jamstack.org/generators&#34;&gt;anderswo&lt;/a&gt; nach SSGs (ach ja: &lt;em&gt;Static Site Generators&lt;/em&gt;) um, die vielleicht etwas geringere Anforderungen stellen als Hugo. Im Grunde die einzige Voraussetzungen: muss Markdown verarbeiten und mit der (simplen) Verzeichnisstruktur dieser Seiten zurechtkommen.&lt;/p&gt;
+&lt;p&gt;Kann doch nicht so schwer sein. Und jetzt will Toto mit mir spielen.&lt;/p&gt;
+&lt;h4 id=&#34;kommentare&#34;&gt;Kommentare&lt;/h4&gt;
+&lt;p&gt;Alexander A. schreibt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hast du einen Blick auf yst geworfen? Es ist ein System, das aus Markdown, SQL-Abfragen und Datenbanken statische Seiten macht. Entwickler ist derselbe wie bei pandoc. Ich schreibe gerade vom Wisch-Telefon, werde also länger brauchen, den Link einzufügen, als du, um ihn selbst zu finden. Mit yst habe ich noch nie produktiv gearbeitet (ich blogge noch nicht, werde vielleicht auch nie).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Stimmt, den &lt;a href=&#34;https://github.com/jgm/yst&#34;&gt;Link zu yst&lt;/a&gt; habe ich gefunden. Kommt auf die Angucken-Liste. Und weiter schreibt Alexander:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiddlywiki (in der nodejs-Fassung) kann alles und nichts. Man kann folgendes bauen: Editiere im Wiki (im Browser, nicht alle lieben es). Speichere nicht, weil es von selbst speichert. Drücke ein Knöpfchen. Fertig sind alle Seiten herausgeschrieben, dazu ein oder zwei Feeds (Volltext, nur Links, &amp;hellip;). Der Aufwand für die Entwicklung dafür ist wahrscheinlich nicht gering. Bei Interesse: Ich will so etwas auch haben, bin aber chronisch faul, sofern niemand sonst es benutzen will.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://tiddlywiki.com&#34;&gt;Tiddlywiki&lt;/a&gt; sieht sich als &lt;em&gt;a non-linear personal web notebook&lt;/em&gt;. Wenn wir den &amp;ldquo;web&amp;rdquo;-Teil weglassen, klingt das wie das &lt;a href=&#34;https://konstantinklein.com/posts/neu-im-werkzeugkasten/&#34;&gt;auf diesen Seiten schon erwähnte&lt;/a&gt; &lt;a href=&#34;https://joplinapp.org/&#34;&gt;Joplin&lt;/a&gt;, trifft also nicht direkt auf eine Marktlücke in meinem persönlichen Werkzeugkasten. Und wie eine Grundlage für ein Blog hört sich das auch nicht an. Ist aber ebenfalls zum Angucken vorgemerkt.&lt;/p&gt;
+&lt;p&gt;Und Peter v.I., der mit seiner tröstlichen Mail (s.o.) das Ganze angestoßen hatte, schreibt noch:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Quite some time ago (I think you can perhaps pinpoint the exact moment via your email archives) I&amp;rsquo;ve drawn your attention to this: &lt;a href=&#34;https://github.com/cfenollosa/bashblog&#34;&gt;https://github.com/cfenollosa/bashblog&lt;/a&gt; It appears to be regularly maintained!&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ve recently seen the dev&amp;rsquo;s blog when I mailed this link: &lt;a href=&#34;https://cfenollosa.com/blog/you-may-be-using-mastodon-wrong.html&#34;&gt;https://cfenollosa.com/blog/you-may-be-using-mastodon-wrong.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Da überschätzt er aber mein Mailarchiv - ich habe gerade erst sehr auf- und vier Jahre Mail vom Server geräumt und in lokalen ZIP-Dateien gesichert, weil ich ohnehin so gut wie nie in alter Mail herumsuche. Aber was den Bashblog-Link angeht: Ich bin froh, vermelden zu können, dass ich nach den &lt;a href=&#34;https://cfenollosa.com/blog/you-may-be-using-mastodon-wrong.html&#34;&gt;Maßstäben von Carles Fenollosa&lt;/a&gt; Mastodon doch einigermaßen korrekt nutze. Und das ist die Hauptsache.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Selbst die Suche in vier Jahren Mail hätte nichts gebracht; ein genauerer Blick auf Fenollosas bashblog hat mir gezeigt, dass ich es - vor erheblich mehr als vier Jahren - tatsächlich einmal selbst getestet hatte. Das war aber noch in meinen WordPress-Zeiten, und ich hatte das Bloggen in seiner statischen Art noch nicht für mich entdeckt.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bürogemeinschaft</title>
+      <link>https://konstantinklein.com/posts/buerogemeinschaft/</link>
+      <pubDate>Tue, 22 Sep 2020 14:56:23 +0200</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/buerogemeinschaft/</guid>
+      <description>&lt;p&gt;Das hätte ich viel früher machen sollen, das mit der Wohngemeinschaft mit Katze. Home Office ist doch etwas ganz anderes, wenn nicht nur die Kollegen via MS Teams und (ab und zu) der DHL-Mann Abwechslung in den Tagesablauf bringen, sondern auch ein nur mäßig gezähmtes Raubtier im Aktentaschenformat; im Falle des Löwenherzen muss sogar eine große Aktentasche als Vergleich herhalten.&lt;/p&gt;
+&lt;p&gt;Das Artikelbild zeigt zweierlei: Einerseits ist aus dem menschenscheuen Einsiedler im Bad inzwischen ein neugieriger Mitbewohner geworden, der zu meiner großen Überraschung auch mal zur Leistungskontrolle im Home Office antritt und hier meinen privaten Laptop beschnuppert, der mit der Arbeit eigentlich gar nichts zu tun hat. Und andererseits zeigt dieser Laptop, bei der vorliegenden Vergrößerung und Bearbeitung nicht ganz leicht zu erkennen, dass das darauf laufende Betriebssystem Ubuntu ist.&lt;/p&gt;
+&lt;p&gt;Langjährige Leser dieser Seiten - sofern es sie gibt - wird das nicht sonderlich wundern. Weshalb das überhaupt erwähnenswert ist: Vor knapp fünf Jahren kaufte ich mir den Klapprechner, weil ich im Internet™ gelesen hatte, dass er, obwohl mit Windows 8.1 ausgeliefert, komplett mit Ubuntu kompatibel wäre. Weil ja alles stimmt, was man im Internet™ so liest, musste ich feststellen, dass &amp;ldquo;komplett&amp;rdquo; leider das WLAN-Modul ausschloss, das den Rechner komplett (diesmal im tatsächlichen Wortsinne) einfrieren ließ - mehrmals am Tag.&lt;/p&gt;
+&lt;p&gt;Damals hatte ich seufzend Windows 8.1 re-installiert und kurz darauf auf Windows 10 aktualisiert. Und das war die Zeit, als mir Windows 10 plötzlich wie ein nicht problemfreies, aber doch brauchbares Betriebssystem erschien.&lt;/p&gt;
+&lt;h3 id=&#34;fünf-jahre-später&#34;&gt;Fünf Jahre später&lt;/h3&gt;
+&lt;p&gt;Fünf Jahre später ist der Laptop fünf Jahre und eine ganze Reihe OS-Aktualisierungen älter und wurde langsam sehr langsam. Worauf ich es mit dem &lt;em&gt;second wind&lt;/em&gt;-Prinzip versuchte, wonach Linux auf älterer Hardware leichtfüßiger läuft als Windows.&lt;/p&gt;
+&lt;p&gt;Ergebnis: ja. Und weil inzwischen fünf Jahre vergangen sind, haben die fleißigen Menschen aus der Community inzwischen den für das WLAN zuständigen Treiber soweit auf Vordermann gebracht, dass die Klappmaschine nicht mehr einfriert, sondern zu einem sehr brauchbaren Tool geworden ist.&lt;/p&gt;
+&lt;p&gt;Alles nicht sonderlich aufregend, ich weiß. Aber das ist eben, womit ich die Zeit seit dem letzten Posting überwiegend verbracht habe: mit Systemputzen und vor allem mit Katerbespaßen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Wie ich beim Durchlesen gemerkt habe: Den Teil mit dem Laptop hatte ich sogar schon &lt;a href=&#34;https://konstantinklein.com/posts/yes-back-to-the-roots/&#34;&gt;zehn Tage früher beschrieben&lt;/a&gt;. Weshalb ich mich in diesem Text auf das WG-Leben mit einem täglich weniger scheuen Kater hätte beschränken können. Nun ja.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>World, meet Toto!</title>
+      <link>https://konstantinklein.com/posts/world-meet-toto/</link>
+      <pubDate>Thu, 27 Aug 2020 19:50:12 +0200</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/world-meet-toto/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&amp;ldquo;Wild!&amp;quot;&lt;/strong&gt; hatte - mehrfach mit Kugelschreiber nachgezogen - auf dem Zettel an der Tür im &lt;a href=&#34;https://tierheimbonn.de/&#34;&gt;Bonner Tierheim&lt;/a&gt; gestanden, hinter der ich Toto kennenlernte. Das war im Juni, mehr als anderthalb Jahre nachdem ich &lt;a href=&#34;https://konstantinklein.com/posts/tschuess-marlon/&#34;&gt;von meinem kleinen schwarzen Freund Marlon&lt;/a&gt; Abschied hatte nehmen müssen. Es war wieder Zeit geworden, mit einer Katze zusammenzuleben, wegen coronabedingtem Home Office, und überhaupt. Ein Leben ohne Katze ist möglich, aber&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Der Kater, vor dem auf dem Türschild so eindringlich gewarnt wurde, machte überhaupt keinen wilden, sondern einen vor allem scheuen Eindruck. Er wollte nicht angeguckt werden, wer ihm zu nahe kam, konnte mit einem &lt;del&gt;Anschiss&lt;/del&gt; kräftigen Fauchen rechnen, und Anfassen wurde mit beeindruckenden Prankenhieben beantwortet.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Wild&amp;rdquo; bezog sich vielmehr auf das Vorleben des löwenfarbigen Katers. Er hatte bei unbekannter Vergangenheit in den letzten Jahren eine Futterstelle für Streuner auf dem Bonner Venusberg besucht, und als diese Stelle aufgelöst werden musste, hatten ihn die Leute vom Tierheim zusammen mit anderen Katzen eingesammelt, untersucht, medizinisch versorgt. Toto ist &lt;a href=&#34;https://de.wikipedia.org/wiki/Felines_Immundefizienz-Virus&#34;&gt;FIV-positiv&lt;/a&gt;, die Krankheit ist aber nicht ausgebrochen. Trotzdem wird er nie mehr das Leben eines ungebundenen Freigängers führen dürfen; er darf nicht mit anderen Katzen zusammenkommen, weil er sie anstecken könnte (für Menschen ist FIV harmlos). Einen Chip hatte der Kater nicht, war also keinem Vorbesitzer zuzuordnen.&lt;/p&gt;
+&lt;p&gt;Zwei Monate war Toto im Tierheim, als wir uns kennenlernten. Eine Woche später bezog er seine neue Wohnung - und war erst einmal gründlich verschwunden. Die ersten Tage verbrachte er, fauchend und eng an den Boden gepresst, im Badezimmer - und das ist heute noch sein bevorzugter Aufenthaltsort tagsüber, so (menschen-) scheu ist Toto. Immerhin darf man, auf dem geschlossenen Toilettendeckel sitzen, mit ihm spielen oder ihn mit einem Rückenkratzer streicheln; die Hand ist aber immer noch ebenso tabu wie eine extra angeschaffte Badebürste: beide werden mit Fauchen und nachhaltigen Schlägen abgewehrt.&lt;/p&gt;
+&lt;h3 id=&#34;viele-kleine-schritte&#34;&gt;Viele kleine Schritte&lt;/h3&gt;
+&lt;p&gt;Zweieinhalb Monate lebt Toto inzwischen bei mir, und er macht kleine, aber deutliche Fortschritte. Anfangs wohnte er im Bad und kam nur zum Fressen - zwei Kater lang, halber Kater hoch, die klassische Gangart einer ängstlichen Katze - heraus. Später kam er heraus, wenn ich nicht da oder im Bett war, kurz darauf fing er an, nachts wilde Partys zu feiern, und ich durfte morgens die Katzenspielsachen unter Bett, Fernseher oder zwischen den Mülleimern in der Küche wieder hervorholen. Und der große Schweiger spricht inzwischen auch mit mir - sehr einsilbig, aber immerhin. Verglichen mit dem Gesprächswunder Marlon ist er aber immer noch sehr verschlossen.&lt;/p&gt;
+&lt;p&gt;Seit ein paar Tagen bewegt Toto sich durch die Wohnung, ob ich nun da bin oder nicht, und auch den Balkon entdeckt er langsam. Während ich diese Zeilen schreibe, geht er gelassen an mir vorbei zum Abendessen; ein kurzer Seitenblick ist mir immerhin vergönnt. Ein Schmusekater ist Toto aber nicht und wird es vielleicht auch nicht mehr; dafür ist er mit seinem löwenfarbenen Fell ein würdiger Mitbewohner, mit dem ich gerne die Wohnung (und - nun ja - das Bad!) teile.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Toto&amp;rdquo; - den Namen hatte er im Tierheim bekommen, und ich bin dabei geblieben, weil ich an den &lt;a href=&#34;https://de.wikipedia.org/wiki/Harry_und_Tonto&#34;&gt;Film dachte, in dem ein alter Mann mit seiner Katze von New York nach Las Vegas reiste&lt;/a&gt;. Dass die Filmkatze &amp;ldquo;Tonto&amp;rdquo; hieß, fiel mir erst auf, als ich den Kater schon als &amp;ldquo;Toto&amp;rdquo; registriert hatte. Seinem entschlossenen Auftreten, wenn ihm was nicht passt, und seiner Fellfarbe verdankt er den vollen Namen &amp;ldquo;Toto Löwenherz&amp;rdquo;, und wenn er mal wieder deutlich auf Distanz besteht, nenne ich ihn auch &amp;ldquo;Dr. Fauchi&amp;rdquo; - zu Ehren des amerikanischen Virologen. Als anständiger Kater hört Toto natürlich auf keinen Namen, mit dem ich ihn rufe.&lt;/p&gt;
+&lt;p&gt;Welcome, Toto, to my world!&lt;/p&gt;
+&lt;h4 id=&#34;kommentare&#34;&gt;Kommentare&lt;/h4&gt;
+&lt;p&gt;Peter van I. begrüßte die neue Wohngemeinschaft so:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wonderful news! I&amp;rsquo;m very happy for both of you.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;hellip; und verlinkte zur Feier des Tages &lt;a href=&#34;https://www.youtube.com/watch?v=CwvhSnkPqK8&#34;&gt;ein Musikvideo von Toto. Der Band, nicht dem Kater.&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think this sums up this momentous event nicely:. You&amp;rsquo;ll just have to replace &amp;lsquo;girl&amp;rsquo; with cat&amp;rsquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Und Georg K. aus H. schrieb:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Willkommen Toto, wie schön für Euch beide. Ich vermisse meine temporäre Gastkatze die mich im Frühjahr zuverlässig jeden Tag und nun schon seit Wochen gar nicht mehr besucht.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Oh je.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Yes, back to the roots!</title>
+      <link>https://konstantinklein.com/posts/yes-back-to-the-roots/</link>
+      <pubDate>Mon, 17 Aug 2020 16:27:42 +0200</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/yes-back-to-the-roots/</guid>
+      <description>&lt;p&gt;&amp;hellip;aber anders, als &lt;a href=&#34;https://konstantinklein.com/posts/back-to-the-roots/&#34;&gt;an dieser Stelle&lt;/a&gt; angedacht und beschrieben. Ich blogge selbstverständlich weiter mit Hugo, und doch ist hinter den Kulissen einiges anders. Weil das aber von außen keiner sieht, könnte ich mir diesen Text auch sparen. Mache ich aber nicht, weil hier schon länger nichts Neues (oder wie ich zur unendlichen Anödung meiner Kollegen im dienstlichen Zusammenhang oft schreibe: &amp;ldquo;Nick&amp;rsquo;s Neuss&amp;rdquo;) stand.&lt;/p&gt;
+&lt;p&gt;Also: Von 2005 bis 2008 und nochmal von 2010 bis 2016 war Linux das Hauptbetriebssystem in meinem Hause; dazwischen hatte ich meine Mac-Phase, die allerdings abrupt endete, als mein Mac Mini genau nach dem Ende der Garantiefrist ganz entschieden (mit einem Festplattenschaden) die Biege machte und das Macbook schon in den Händen der Ehefrau war. 2016 dann war ich etwas angefressen, als mein damals neu gekaufter, angeblich zu 100 % Linux-kompatibler Laptop genau das nicht war, sondern regelmäßig einfror und nur mit einem Kaltstart wieder zu wecken war. Also packte ich das mitgelieferte Windows wieder drauf, und als zwei Jahre später auch der Desktoprechner ersetzt werden musste, lief auch darauf das mitgelieferte Windows.&lt;/p&gt;
+&lt;p&gt;Inzwischen altert mein Klapprechner allerdings zusehends, und das ist ja gerne ein Anlass, der Hardware mit Linux den &lt;em&gt;second wind&lt;/em&gt; einzuhauchen und selbst nicht ganz aus der Übung zu kommen.&lt;/p&gt;
+&lt;p&gt;Auf dem kleinen Rechner läuft jetzt also (wieder) Ubuntu, und offenbar haben die Entwickler die letzten vier Jahre genutzt: Das Dings friert auch nicht mehr ein.&lt;/p&gt;
+&lt;h3 id=&#34;und-hugo&#34;&gt;Und Hugo?&lt;/h3&gt;
+&lt;p&gt;Ja. Hugo ist ja unter Windows immer so ein wenig ein Fremdkörper geblieben. Selbstverständlich gab und gibt es fertige .exe-Versionen für Windows. Aber irgendwie&amp;hellip; irgendwie stimmte das nicht (was natürlich Quatsch ist, weil es ja funktioniert). Beispielsweise errechnet das für seine Geschwindigkeit berühmte Hugo auf der eindeutig älteren Hardware unter Ubuntu die Seiten mehr als doppelt so schnell wie auf dem drei Jahre jüngeren Windows-Rechner (Geschwindigkeitsmonster sind beide nicht). Und überhaupt hat Hugo in meinen Augen einen ganz eindeutigen *nix-Hintergrund, und den möchte ich in der nächsten Zeit näher erforschen und ausnutzen.&lt;/p&gt;
+&lt;p&gt;Was das besonders Schöne an diesem Text ist: Er entstand gleich nach dem Kopieren meines Blog-Verzeichnisses auf den frischen Ubuntu-Rechner und der Installation von Hugo aus dem Repository. Dort, also im Repository, liegt eine minimal ältere Version von Hugo, die diese Seiten aber problemlos ausschreibt. Und weil Ubuntu bzw. seine Macher ja immer alles anders machen wollen, gibt es auch eine &lt;a href=&#34;https://de.wikipedia.org/wiki/Snappy_(Paketverwaltung)&#34;&gt;Snap-Version&lt;/a&gt;, die gleich mehrere Versionsstufen neuer ist und mit dem Theme nicht zusammenarbeiten will - weshalb ich die ältere Version installiert habe und ich mich als nächstes daran machen werde, dass sie bei den sonst sehr komfortablen Aktualisierungen eben &lt;em&gt;nicht&lt;/em&gt; aktualisiert wird.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Wieder was gelernt (und das nach all den Jahren!):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# sudo apt-mark hold hugo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Und so findet mein Blog einstweilen auf dem Laptop statt. Und hier natürlich. &lt;em&gt;That&amp;rsquo;s all.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;kommentar&#34;&gt;Kommentar&lt;/h4&gt;
+&lt;p&gt;Peter van I. meldete sich umgehend und schrieb:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Respect!&lt;/p&gt;
+&lt;p&gt;/*sounds of thunderous applause, not often heard outside the hallowed grounds of the Chinese Communist Party headquarters during its yearly assembly*/&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Und weiter:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;reason for another round using Hugo is this little typo near the end&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ich mich sls nächstes daran&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Und ich dachte immer, das wäre meine ganz persönliche Berufskrankheit, der sog. Gemeine Redakteursblick, der den Patienten sofort kleine und kleinste Tippfehler (umgehend korrigiert) finden lässt.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Back to the Roots?</title>
+      <link>https://konstantinklein.com/posts/back-to-the-roots/</link>
+      <pubDate>Sat, 18 Jul 2020 08:28:48 +0200</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/back-to-the-roots/</guid>
+      <description>&lt;p&gt;Ganz ehrlich: Das hätte ich nicht erwartet, die Begriffe &amp;ldquo;Word&amp;rdquo; (wie in &amp;ldquo;Microsoft Word&amp;rdquo;), &amp;ldquo;Blogging&amp;rdquo; und &amp;ldquo;fun&amp;rdquo; in einem Absatz zu lesen. Aber zurück &lt;del&gt;zu den Wurzeln&lt;/del&gt; auf Anfang.&lt;/p&gt;
+&lt;p&gt;Ich habe gerade etwas Urlaub, also Home ohne Office. Das bedeutet, dass ich mir neben gepflegtem Nichtstun, dem wechselweisen Lesen eines Thrillers, des aktuellen Spiegels und des dto. &lt;a href=&#34;https://amzn.to/2CnRecn&#34;&gt;Buches von Mary L. Trump über &lt;em&gt;ihren&lt;/em&gt; Onkel Donald&lt;/a&gt; (Obacht, Amazon-Link!) ab und zu Gedanken über die Zukunft dieses Blogs, mein Online-Leben an sich und ähnlichen Kram mache - bisher ohne wesentliche Ergebnisse. Denn einerseits geht es mir ähnlich wie &lt;a href=&#34;https://sturmpost.com/bloggen-tumblebloggen-und-lifestreamen/&#34;&gt;Andrea S. aus W., die den Zeiten des Lifestreaming (mit &amp;ldquo;f&amp;rdquo;!) hinterhertrauert&lt;/a&gt;; andererseits ist gerade sowas mit Hugo nun ganz schwer umzusetzen. Doch den Weg zurück zu WordPress (mit dem ein Lifestream etwas leichter zu simulieren wäre) zu gehen, bin ich &lt;del&gt;noch&lt;/del&gt; nicht bereit (wer hat da gerade &amp;ldquo;noch&amp;rdquo; in den Satz gemogelt? Na, wer??).&lt;/p&gt;
+&lt;h3 id=&#34;word-word&#34;&gt;Word. Word?&lt;/h3&gt;
+&lt;p&gt;Und da stolpere ich in einer anderen Ecke des Netzes - übrigens in einem mit Hugo geführten Blog - darüber, dass &lt;a href=&#34;https://www.arminhanisch.de/2020/07/bloggen-mit-word/&#34;&gt;Armin Hanisch über &amp;ldquo;Bloggen mit Word?&amp;rdquo; schreibt&lt;/a&gt;. Genau: der selbe Armin Hanisch, der mir vor mehr als zwei Jahren &lt;a href=&#34;../kleinbloggersdorf-revisited/&#34;&gt;die ersten Schritte mit Hugo erleichterte&lt;/a&gt;. Und &lt;em&gt;der&lt;/em&gt; schreibt über Bloggen mit Word?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Es geht darum, dass digitale Souveränität und Teilhabe wichtig ist. Wenn das mit einem anderen Ansatz als Markdown und einer Blogsoftware wesentlich einfacher geht, dann muss es eben nicht Markdown sein.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hm. Soso. Dann also: Hanisch testfährt ein Projekt des neuseeländischen &lt;a href=&#34;https://twitter.com/dbruning&#34;&gt;Entwicklers Darren Bruning&lt;/a&gt; (Obacht, Twitter-Link!). Unter der Adresse &lt;a href=&#34;https://www.madethis.blog/&#34;&gt;madethis.blog&lt;/a&gt; stellt Bruning das vor, was er als &lt;em&gt;The World&amp;rsquo;s Easiest Blog System&lt;/em&gt; bezeichnet. Benötigt werden eine Microsoft 365-Lizenz (haben mehr Leute, als man glauben sollte!) und den dazugehörigen OneDrive (dito). Beides wird verknüpft mit einem Account bei madethis.blog (derzeit nur Gratis-Account ohne eigene Domain oder andere &lt;em&gt;frills&lt;/em&gt;), und heraus kommt sowas wie Armins Testblogpost &lt;a href=&#34;https://arminhanisch.madethis.blog/first-post&#34;&gt;Manchmal muss es tatsächlich nicht MarkDown sein&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Die Idee dahinter: Word ist ein, nun ja: Tool, das mehr Leute gebrauchen, als man glauben sollte - also &lt;em&gt;noch mehr&lt;/em&gt; -, und das diese Leute einfach kennen (und sei es davon, dass sie ein Urlaubsfoto in ein Word-Dokument pasten, bevor sie es per Mail verschicken - soll schon vorgekommen sein!). Und wenn man Menschen zum Bloggen bringt, weil es auch mit einem, nun ja: Tool geht, das sie schon kennen: Der Zwerg reinigt die Kittel. Oder so.&lt;/p&gt;
+&lt;h3 id=&#34;und-was-ist-jetzt-mit-den-wurzeln&#34;&gt;Und was ist jetzt mit den Wurzeln?&lt;/h3&gt;
+&lt;p&gt;Ganz ehrlich: Gar nichts. Mir ist nur bei dem Projektnamen madethis.blog sofort das prähistorische editthispage.com von &lt;a href=&#34;https://scripting.com&#34;&gt;Dave Winer&lt;/a&gt; eingefallen, mit dem vor zwanzig oder so Jahren nicht nur der &lt;a href=&#34;http://blog.schockwellenreiter.de&#34;&gt;Nachbar aus Neukölln&lt;/a&gt; seine ersten Blogschritte machte. Auch das war ein webbasierter Versuch, Menschen das damals noch sehr frische Bloggen nahezubringen (kam aber ganz ohne Microsoft-Produkte aus).&lt;/p&gt;
+&lt;p&gt;Ich fürchte aber, dass es nach all den Jahren auf Twitter, Facebook, Instagram &amp;amp; Co. nur noch wenige Menschen gibt, die sich den Kopf bis jetzt vergeblich zermartern, wie sie nur im Netz publizieren können. Ich zermartere zwar, aber nicht mit großer Heftigkeit, denn einerseits weiß ich ja, wie Bloggen geht (Beweis: auf Ihrem Bildschirm), andererseits bin ich bei allem Gegrübel über andere Blogformen durchaus zufrieden mit dem, was ich hier habe: Markdown, schnelle, statische Seiten, keine Datenschutzprobleme, ein modernes System, Hugo!&lt;/p&gt;
+&lt;p&gt;Und letztendlich gilt - wie für diese Hugoseiten - auch für Brunings Projekt das Argument, das alle anderen schlägt: &lt;strong&gt;Weil es geht™!&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;kommentare&#34;&gt;Kommentare&lt;/h4&gt;
+
+
+
+
+
+
+&lt;iframe src= &#34;https://mastodon.social/@leralle/104533838307961805/embed&#34; class=&#34;mastodon-embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;750&#34; height=&#34;170&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Und nur wenig später schrieb Peter van I.:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It made me think back a few decades when I became interested in website building and invested a lot of time to learn HTML and CSS. At the time it was also fashionable (to a degree, mostly because it was super easy) to save Word documents as HTML. I don&amp;rsquo;t do MS Office anymore so I can&amp;rsquo;t verify of the option is still there, in Word. But I do remember that the resulting HTML was absolutely horrendous. It looked like MS wanted to reinvent HTML all over again with proprietary code.&lt;/p&gt;
+&lt;p&gt;A quick look at the source of the demo page shows that it&amp;rsquo;s still not all completely compliant HTML code but the result is pretty good!&lt;/p&gt;
+&lt;p&gt;update:
+A quick trip via Google (or DDG, if you prefer) using the search parameter &amp;lsquo;websites made with MS Word&amp;rsquo; gave a surprising number of results, many shown to be quite recent.
+This one is only a month old: &lt;a href=&#34;https://www.wikihow.com/Make-a-Website-With-Word&#34;&gt;https://www.wikihow.com/Make-a-Website-With-Word&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Die verlinkte WikiHow-Seite beginnt mit den unsterblichen Worten:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;While it is possible to generate an HTML page with Word, it&amp;rsquo;s generally recommended that you do not do so [&amp;hellip;]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;hellip;geht dann aber doch weiter und beschreibt, wie man es trotzdem macht.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Ohai, HEY!</title>
+      <link>https://konstantinklein.com/posts/ohai-hey/</link>
+      <pubDate>Sat, 27 Jun 2020 08:47:14 +0200</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/ohai-hey/</guid>
+      <description>&lt;p&gt;Es war ein &lt;em&gt;minor brouhaha&lt;/em&gt; in den letzten Tagen: Nach einer ursprünglichen Zulassung warf Apple die Mail-App &lt;a href=&#34;https://hey.com&#34;&gt;des Anbieters HEY&lt;/a&gt; &lt;a href=&#34;https://www.techhnews.com/apple-rejects-hey-com-app-store-updates-mandating-in-app-subscription/&#34;&gt;aus dem App Store&lt;/a&gt; mit der Begründung, ein bezahlter Maildienst &lt;a href=&#34;https://www.theverge.com/2020/6/16/21293419/hey-apple-rejection-ios-app-store-dhh-gangsters-antitrust&#34;&gt;müsse seine Zahlungen über Apple abwickeln&lt;/a&gt; (und Apple damit seinen Zehnten abdrücken - genaugenommen sind es sogar drei Zehnte!). HEY wickelt seine Abos aber nicht in der App ab, sondern nur über die eigene Website. Es folgte ein zähes Hin und Her und schließlich &lt;a href=&#34;https://www.msn.com/en-us/news/technology/apple-approves-hey-e-mail-app-but-the-fights-not-over-yet/ar-BB15Q4Ah&#34;&gt;eine grummelige Einigung&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Der Hickhack weckte mein Interesse genug, dass ich mich um eine Einladung zu HEY bemühte; um die Last niedrig und das Interesse hoch zu halten, vergab HEY Accounts zuerst nur auf Einladung. Am Dienstag war es dann soweit (inzwischen sind Einladungen offensichtlich nicht mehr nötig), und ich konnte mir HEY näher ansehen. Zitat von der Einstiegsseite:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hey everyone—&lt;/p&gt;
+&lt;p&gt;It’s 2020, we need to talk about email. &lt;br&gt;
+Email gets a bad rap, but it shouldn’t. Email’s a treasure. &lt;br&gt;
+[&amp;hellip;] &lt;br&gt;
+Email deserves a dust off. A renovation. Modernized for the way we email today. &lt;br&gt;
+With HEY, we’ve done just that. It’s a redo, a rethink, a simplified, potent reintroduction of email. A fresh start, the way it should be.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ja, ist OK. E-Mail ist zum notwendigen Übel geworden, und ihr habt die Idee, mit der E-Mail wieder zum &amp;ldquo;Schatz&amp;rdquo; wird. Verstanden.&lt;/p&gt;
+&lt;p&gt;Nun beschäftige ich mich ja gerne etwas näher mit diesem ältesten Kommunikationsweg des Internet und weiß daher, dass es schon viele mehr oder weniger erfolgreiche Versuche gab, E-Mail wieder beherrschbar zu machen - von einfachen Mailfiltern bis hin zu ansatzweise intelligenter Künstlicher Intelligenz, die Mailnachrichten sortieren, bewerten und aufarbeiten soll. Was ich nie wirklich verstanden habe, war die Notwendigkeit dafür - ich schaffe es seit 27 (!) Jahren, meine E-Mail mit Filtern und persönlichen Blocklisten unter Kontrolle zu halten. &lt;em&gt;But HEY, that&amp;rsquo;s just me.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;von-der-inbox-zur-imbox&#34;&gt;Von der Inbox zur Imbox&lt;/h3&gt;
+&lt;p&gt;Was macht nun HEY anders?&lt;/p&gt;
+&lt;p&gt;Zunächst, in einer Trainingsphase, wird ankommende Mail grundsätzlich in &lt;del&gt;Geiselhaft&lt;/del&gt; Quarantäne genommen, und der User muss sie, um sie überhaupt ansehen können, anhand von Absender und Betreff kategorisieren: Ist das Spam, oder will ich vielleicht von diesem Absender nichts mehr lesen? Oder fällt die Nachricht in eine von drei Kategorien: &lt;em&gt;Paper Trail&lt;/em&gt; (alle Bestellbestätigungen, Rechnungen, Lieferankündigungen, eben alles, was mit Transaktionen &lt;em&gt;in real life&lt;/em&gt; zu tun hat), &lt;em&gt;The Feed&lt;/em&gt; (Newsletters, Werbemails, die man trotzden lesen will etc.) und &lt;em&gt;Imbox&lt;/em&gt; - das ist erstens kein Tippfehler (dazu gleich mehr) und zweitens die Post, die ich als erstes lesen will und als einziges nach dem Training ohne weiteren Klick angezeigt bekomme. Paper Trail und Feed sind zwei Mausklicks oder einen &lt;em&gt;keyboard shortcut&lt;/em&gt; entfernt.&lt;/p&gt;
+&lt;p&gt;Wie zuverlässig und vor allem intelligent die Verarbeitung nach der ersten manuellen Einordnung arbeitet, kann ich nach fünf Tagen einfach nicht sagen; auf mich macht die Sache vor allem den Eindruck von ganz herkömmlichen Mailfiltern unter einer, nun ja: schicken Oberfläche. Leider dauert die Gratistestphase nur zwei Wochen, was zu kurz sein könnte, um die wahren Werte von HEY schätzen zu lernen. Nach diesen zwei Wochen aber ist die erste Jahresgebühr von US-$ 99 (in Worten: neunundneunzig!) fällig; kürzere Abos oder monatliche Abrechnung gibt es nicht.&lt;/p&gt;
+&lt;p&gt;Oha.&lt;/p&gt;
+&lt;h3 id=&#34;the-deal&#34;&gt;The Deal&lt;/h3&gt;
+&lt;p&gt;Was bekomme ich - nein, was &lt;em&gt;bekommt man&lt;/em&gt; (denn ich - Spoiler alert! - werde wohl nicht zu den zahlenden Kunden gehören) nun für die 99 Kröten?&lt;/p&gt;
+&lt;p&gt;Eine Mailadresse @hey.com, verbunden mit der Notwendigkeit, alle Abos und Accounts umzuleiten oder umzustellen und allen menschlichen Kontakten mit &lt;em&gt;yet another&lt;/em&gt; Adressänderung auf den Zünder zu gehen. HEY mit der eigenen Domain zu nützen, ist derzeit nicht möglich - man denke noch über die Umsetzung und die dafür fälligen Gebühren (&lt;em&gt;what?&lt;/em&gt;) nach.&lt;/p&gt;
+&lt;p&gt;Eine Mobilapp, die, von den Zusatzbuttons für Feed, Paper Trail etc. abgesehen, aussieht wie die meisten anderen mobilen Mailapps.&lt;/p&gt;
+&lt;p&gt;Eine Weboberfläche, die in einem dunklen Lila gehalten ist, das nur unwesentlich attraktiver ist als das, das ich für die auf dieser Seite üblichen Einfärbung der Artikelbildes ausgesucht habe; bis jetzt lässt sich das Erscheinungsbild nicht ändern.&lt;/p&gt;
+&lt;p&gt;Eine &lt;em&gt;rumpelig-langsame&lt;/em&gt; Weboberfläche (chromium-basierter Browser auf Windows 10).&lt;/p&gt;
+&lt;p&gt;Eine &amp;ldquo;Imbox&amp;rdquo;, wo ich eine Inbox erwartet hätte - weil sie nur wichtige, also &lt;em&gt;&amp;ldquo;im&amp;quot;portant&lt;/em&gt; Mail enthält. Das ist ja lustig.&lt;/p&gt;
+&lt;p&gt;Und dann findet HEY nur und ausschließlich in dieser Weboberfläche und den diversen Apps statt. Wie auch bei anderen sich innovativ gebenden Anbietern (&lt;em&gt;looking at you&lt;/em&gt;, &lt;a href=&#34;https://tutanota.com&#34;&gt;Tutanota&lt;/a&gt; und &lt;a href=&#34;https://protonmail.com&#34;&gt;Protonmail&lt;/a&gt;!) ist ein Zugriff über die Standardprotokolle IMAP und SMTP und damit der Einsatz eines Mailprogramms der eigenen Wahl (incl. Erweiterungen wie Verschlüsselungen) nicht drin.&lt;/p&gt;
+&lt;h3 id=&#34;wo-bleibt-das-positive&#34;&gt;Wo bleibt das Positive?&lt;/h3&gt;
+&lt;p&gt;Natürlich ist nicht alles schlecht bei HEY - durchaus nicht. Die Firma dahinter ist &lt;a href=&#34;https://basecamp.com/&#34;&gt;Basecamp&lt;/a&gt;, die Projektmanagement und &lt;em&gt;remote working&lt;/em&gt; schon anbot, als Slack noch ein feuchter Traum war und keiner an Corona, Home Office, Zoom oder gar Microsoft Teams dachte. Mit einer solchen Expertise im Hintergrund steckt möglicherweise tatsächlich genug Gehirnschmalz für $ 99/Jahr in HEY, und ich habe es in der kurzen Zeit einfach nicht gefunden.&lt;/p&gt;
+&lt;p&gt;Dann: Basecamp und damit auch HEY sind US-amerikanische Firmen, und das ist für datenschutzbewusste Europäer (eigentlich für Datenschutzbewusste überall) ein Problem. Das weiß man auch bei HEY und bietet dafür erstaunlich klare, verständliche und offene Datenschutzhinweise an. Kurz zusammengefasst in etwa so: Bei HEY fühle man sich sowohl europäischen wie kalifornischen Datenschutzregeln verbunden, aber die Server stehen nun mal in den USA, und auch das &lt;a href=&#34;https://de.wikipedia.org/wiki/Safe_Harbor&#34;&gt;Safe Harbor&lt;/a&gt;-Abkommen bzw. der &lt;a href=&#34;https://de.wikipedia.org/wiki/EU-US_Privacy_Shield&#34;&gt;EU-US Privacy Shield&lt;/a&gt; bieten nur begrenzten Datenschutz. Das ist ehrlicher als das meiste Datenschutzgeschwurbel, das man im Netz so findet.&lt;/p&gt;
+&lt;p&gt;Und dann kann es einfach auch sein - bzw. ich bin mir sogar sicher, dass ich nicht zur Zielgruppe von HEY gehöre. Ich habe meinen Mailfluss ganz gut im Griff und kann ihn gerade selber sortieren; mehr als einen leistungsfähigen Spamfilter brauche ich eigentlich nicht. Das hat auch damit zu tun, dass Mail in meinem (privaten) Netzalltag nicht mehr die Rolle spielt, die sie noch vor ein paar Jahren hatte. Wichtige und vertrauliche Kommunikation läuft bei mir über &lt;a href=&#34;https://signal.org/de/&#34;&gt;Signal&lt;/a&gt;, in der Mailbox finde ich überwiegend automatische Kommunikation: Bestätigungen, Rechnungen, Newsletter, alles nicht in einer solchen Menge, dass ich elektronische Hilfe bräuchte. Andere haben vielleicht auf gerade so etwas gewartet.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;tl;dr:&lt;/em&gt; Als zahlenden Kunden wird mich HEY nicht sehen. &lt;em&gt;Your mileage may&lt;/em&gt; dagegen &lt;em&gt;vary.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;statt-eines-kommentars&#34;&gt;Statt eines Kommentars&lt;/h4&gt;
+&lt;p&gt;Stammleser Peter van I. hat mich darauf hingewiesen, dass &lt;a href=&#34;https://www.copingmechanism.com/2020/using-hey-for-email/&#34;&gt;Jack Baty schon weiter ist&lt;/a&gt; (oder zu anderen Schlüssen gekommen ist) als ich und sich für einen dauerhaften HEY-Account entschieden hat. &lt;a href=&#34;https://www.copingmechanism.com/2020/first-impressions-of-hey-email/&#34;&gt;In seinen ersten Eindrücken&lt;/a&gt; hat Baty, wenn auch in größerer Detailgenauigkeit als ich auf dieser Seite, aufgeschrieben, was ihm an HEY aufgefallen ist, was ihm gefallen hat und was nicht:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Imsorry but “Imbox” is stupid.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nach der Lektüre der beiden Artikel weiß ich auch, was einen dazu verleiten könnte, 99 US-Kröten für eine neue Mailadresse auszugeben. Baty hat offenbar genug interessante, wichtige oder auch nur verwaltenswerte Mail, dass er auf die HEY-eigenen Funktionen wie Umbenennung und Neugruppierung von Threads, schnelles Auffinden aller Nachrichten zu einem Thema oder einer Person etc. nicht verzichten möchte. All dies habe ich in meiner zunehmend Messenger-dominierten Kommunikation nicht; in meiner Mail-Welt brauche ich es nicht. Vielleicht, weil ich beruflich in einem beruflich regulierten Umfeld maile, verwalte und archiviere, privat aber Mail längst (s.o.) keine so große Rolle mehr spielt.&lt;/p&gt;
+&lt;p&gt;Eben: &lt;em&gt;Your mileage&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;und-dann-kam-doch-noch-ein-kommentar&#34;&gt;Und dann kam doch noch ein Kommentar&lt;/h4&gt;
+
+
+
+
+
+
+&lt;iframe src= &#34;https://chaos.social/@gittaca/104531003766681968/embed&#34; class=&#34;mastodon-embed&#34; style=&#34;max-width: 100%; border: 0&#34; width=&#34;750&#34; height=&#34;252&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Ich kann (und konnte auf Mastodon) mich da nur wiederholen: Wenn die Mailbox täglich voll ist mit Nachrichten, die eine komplexe Vorsortierung nötig haben, um überhaupt beherrschbar zu sein, kann Hey ebenso helfen wie ein ausgefeiltes Filtersystem. Bei mir tun es eher einfache Filter, eine aktuell gehaltene Blacklist und ein gut trainierter Finger auf dem Delete-Knopf.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>chmod a&#43;rwx /bin/freedom</title>
+      <link>https://konstantinklein.com/posts/chmod-a-rwx-bin-freedom/</link>
+      <pubDate>Thu, 11 Jun 2020 10:18:23 +0200</pubDate>
+      
+      <guid>https://konstantinklein.com/posts/chmod-a-rwx-bin-freedom/</guid>
+      <description>&lt;p&gt;Es muss so vor 19 Jahren gewesen sein, als ich in meiner damaligen Heimat, einem Vorort von Washington, DC, dieses inzwischen reichlich verwitterte T-Shirt kaufte. Es zeigt die US-Flagge und darunter das Unix/Linux-Kommando &lt;strong&gt;chmod&lt;/strong&gt;, mit dem allen (&amp;quot;&lt;strong&gt;a&lt;/strong&gt;&amp;quot;) das Recht zugewiesen (&amp;quot;&lt;strong&gt;+&lt;/strong&gt;&amp;quot;) wird, das systemweit wichtige Programm &lt;em&gt;Freiheit&lt;/em&gt; (&amp;quot;&lt;strong&gt;/bin/freedom&lt;/strong&gt;&amp;quot;) zu lesen, zu schreiben und auszuführen (&amp;quot;&lt;strong&gt;rwx&lt;/strong&gt;&amp;quot;).&lt;/p&gt;
+&lt;p&gt;Die Grundlage jeder freiheitlichen Demokratie in Form eines Unix-Befehls! &amp;ldquo;Wie unglaublich amerikanisch!&amp;rdquo; dachte ich mir in jenen friedlichen, im Rückblick beinahe golden schimmernden Monaten vor dem 11. September 2001, dem Tag, der schließlich der Regierung unter George W. Bush und vor allem seinem Vize Dick &amp;ldquo;Dick&amp;rdquo; Cheney den Vorwand für den neokonservativen Neo-Imperalismus lieferte, der die Machtpolitik der USA seither (und ja, auch unter Barack Obama!) bestimmt.&lt;/p&gt;
+&lt;p&gt;Nach diesem 11. September traute ich mich eine Zeitlang übrigens nicht mehr, das T-Shirt zu tragen - in Europa nicht, um nicht in den Verdacht unkritischen Hurra-Amerikanismus zu geraten (denn wer kennt schon Unix-Befehle?), und in den USA nicht, weil meine dortigen Mitbewohner in diesen Monaten nur ein/en &amp;ldquo;Bin&amp;rdquo; kannten, und der hieß nicht &amp;ldquo;Freedom&amp;rdquo;, sondern &amp;ldquo;Laden&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;das-schweigen-eines-journalisten&#34;&gt;Das Schweigen eines Journalisten&lt;/h3&gt;
+&lt;p&gt;Natürlich verfolge ich auch 17 Jahre nach meiner Rückkehr nach Europa alles, was sich in den USA tut, mit besonderen Interesse; Leser dieser Seiten wissen das. Ich habe auch meistens eine Meinung zu dem, was sich da tut. Und trotzdem - Leser dieser Seiten werden sich vielleicht schon wundern - habe ich in den letzten Wochen geschwiegen zum Tod des George Floyd in Minneapolis, zu den Protesten, die sich nicht zum ersten Mal, aber stärker als jemals zuvor in den letzten 50 Jahren erhoben haben, zu den Reaktionen der US-amerikanischen, nun ja: Obrigkeit, die durch Rassismus, Ignoranz, Hass, der völligen Verkennung der Vorgänge und auch durch die Panik eines komplett überforderten Präsidenten und seiner Berater geprägt sind. Überall im Netz und daneben haben die Leute eine Meinung dazu - und ich habe &lt;em&gt;keine&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;Natürlich habe ich eine. Aber mir bleibt in den letzten Wochen schlicht die Sprache weg, so entsetzt bin ich von all dem, was da in den USA vor sich geht.&lt;/p&gt;
+&lt;p&gt;Nicht, dass das nicht die absehbare Konsequenz der vor allem republikanischen Politik wäre, die schon seit Mitte der 90er Jahre Machtgewinn und Machterhalt über die Bedürfnisse einer tief gespaltenen Gesellschaft stellt.&lt;/p&gt;
+&lt;p&gt;Deshalb mein wochenlanges Schweigen. Ich bin buchstäblich sprachlos.&lt;/p&gt;
+&lt;h3 id=&#34;in-other-news&#34;&gt;In other news&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Daneben denke ich mir, dass ich in diesen Zeiten mit einer anderen Form des Bloggens vielleicht besser zurechtkäme, mit kürzeren Texten, manchmal auch einfach nur Linksammlungen, auch einer flexibleren Seitenstruktur. Mit einem anderen, einem dynamischen Blogsystem wäre das schneller umzusetzen - und das ausgerechnet jetzt, wo ich mit Hugo &lt;a href=&#34;../im-bastelkeller/&#34;&gt;endlich Fortschritte&lt;/a&gt; gemacht hatte!&lt;/p&gt;
+&lt;p&gt;Nun ja, ich habe im Juli zwei Wochen Urlaub und keine Reisepläne - und möglicherweise Zeit zum Basteln. Und dann käme mein Hugo vielleicht auch besser mit veränderten Blogbedürfnissen zurecht.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="de">
+  <head>
+  <meta charset="utf-8">
+<title>Google und der ganze Rest - Konstantin Klein</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="generator" content="Hugo 0.68.3" /><meta itemprop="name" content="Google und der ganze Rest">
+<meta itemprop="description" content="Das Wort &ldquo;Datenkrake&rdquo; habe ich schon immer für reichlich doof gehalten. Es tut den echten Kraken unrecht, die da im Meer herumschwimmen, aber auch den Konzernen, die damit gerne in ein maritimes sinistres Licht gerückt werden sollen. Denn das, was die Datensammler (womit wir wiederum Gefahr laufen, allen Sammlern, von Briefmarken- bis Leergut-, unrecht zu tun) so machen, ähnelt eher der Art, wie Blau- oder andere Bartenwale zu ihrem Futter kommen: Sie lassen das Ozeanwasser durch die Barten strömen und filtern so das Plankton heraus.">
+<meta itemprop="datePublished" content="2018-08-06T20:25:58&#43;02:00" />
+<meta itemprop="dateModified" content="2018-08-06T20:25:58&#43;02:00" />
+<meta itemprop="wordCount" content="849">
+
+
+
+<meta itemprop="keywords" content="Datenschutz,Werkzeug,Technik," /><meta property="og:title" content="Google und der ganze Rest" />
+<meta property="og:description" content="Das Wort &ldquo;Datenkrake&rdquo; habe ich schon immer für reichlich doof gehalten. Es tut den echten Kraken unrecht, die da im Meer herumschwimmen, aber auch den Konzernen, die damit gerne in ein maritimes sinistres Licht gerückt werden sollen. Denn das, was die Datensammler (womit wir wiederum Gefahr laufen, allen Sammlern, von Briefmarken- bis Leergut-, unrecht zu tun) so machen, ähnelt eher der Art, wie Blau- oder andere Bartenwale zu ihrem Futter kommen: Sie lassen das Ozeanwasser durch die Barten strömen und filtern so das Plankton heraus." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://konstantinklein.com/posts/google-und-der-ganze-rest/" />
+<meta property="article:published_time" content="2018-08-06T20:25:58+02:00" />
+<meta property="article:modified_time" content="2018-08-06T20:25:58+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Google und der ganze Rest"/>
+<meta name="twitter:description" content="Das Wort &ldquo;Datenkrake&rdquo; habe ich schon immer für reichlich doof gehalten. Es tut den echten Kraken unrecht, die da im Meer herumschwimmen, aber auch den Konzernen, die damit gerne in ein maritimes sinistres Licht gerückt werden sollen. Denn das, was die Datensammler (womit wir wiederum Gefahr laufen, allen Sammlern, von Briefmarken- bis Leergut-, unrecht zu tun) so machen, ähnelt eher der Art, wie Blau- oder andere Bartenwale zu ihrem Futter kommen: Sie lassen das Ozeanwasser durch die Barten strömen und filtern so das Plankton heraus."/>
+<meta name="twitter:site" content="@konstantinklein"/>
+<link rel="stylesheet" href="/css/bundle.min.9dd2c565537d7f5318326fa8197bff9d51e0b29c835d0e399e87f15b891288f7.css" integrity="sha256-ndLFZVN9f1MYMm&#43;oGXv/nVHgspyDXQ45nofxW4kSiPc=">
+        <link rel="stylesheet" href="/css/add-on.css">
+        <link rel="stylesheet" href="/css/custom.css">
+  <link rel='canonical' href='https://konstantinklein.com/'>
+  <link rel="alternate" href="https://konstantinklein.com/index.xml" type="application/rss+xml">
+  <link rel="me" href="https://konstantinklein.com/" />
+  <link rel="me" href="https://twitter.com/konstantinklein/" />
+  <link rel="me" href="https://bonn.social/@konstantinklein" />
+  <link rel="me" href="https://keybase.io/konstantinklein" />
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+            posts
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        
+          
+          
+            <a href="/" class="link"><i class='fas fa-home'></i> Start</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/about/" class="link"><i class='far fa-id-card'></i> Über</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/datenschutz/" class="link"><i class='far fa-compass'></i> Datenschutz</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/impressum/" class="link"><i class='far fa-newspaper'></i> Impressum</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/kontakt/" class="link"><i class='far fa-envelope'></i> Kontakt</a>
+          
+        
+      
+     </menu>
+    
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Google%20und%20der%20ganze%20Rest&amp;url=https%3a%2f%2fkonstantinklein.com%2fposts%2fgoogle-und-der-ganze-rest%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkonstantinklein.com%2fposts%2fgoogle-und-der-ganze-rest%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fkonstantinklein.com%2fposts%2fgoogle-und-der-ganze-rest%2f&amp;title=Google%20und%20der%20ganze%20Rest" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkonstantinklein.com%2fposts%2fgoogle-und-der-ganze-rest%2f&amp;description=Google%20und%20der%20ganze%20Rest" target="_blank" rel="noopener" class="share-btn pinterest">
+          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Schauen%20Sie%20sich%20diesen%20Beitrag%20an&amp;body=https%3a%2f%2fkonstantinklein.com%2fposts%2fgoogle-und-der-ganze-rest%2f" target="_blank" class="share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" class="hidden-single-column">
+  <a href="/"><img src="/images/logo.gif" class="square" width="90" alt="K[journ]" /></a>
+  <header>
+    <h1>Konstantin Klein</h1>
+  </header>
+  <main>
+    <p>Irgendwie doch ein Blog. Oder so.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/konstantinklein" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bonn.social/@konstantinklein" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:blog@konstantinklein.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/posts/google-und-der-ganze-rest/">Google und der ganze Rest</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2018-08-06 20:25:58 &#43;0200 CEST">
+      06.08.2018
+    </time>
+    <span class="author"></span>
+    
+      <p>4 Minuten</p>
+    
+  </div>
+</header>
+
+  
+
+  <div class="content">
+    <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/googleurest.jpg'/>
+    
+  </figure>
+</div>
+	<p>Das Wort &ldquo;Datenkrake&rdquo; habe ich schon immer für reichlich doof gehalten. Es tut den echten Kraken unrecht, die da im Meer herumschwimmen, aber auch den Konzernen, die damit gerne in ein <del>maritimes</del> sinistres Licht gerückt werden sollen. Denn das, was die Daten<em>sammler</em> (womit wir wiederum Gefahr laufen, allen Sammlern, von Briefmarken- bis Leergut-, unrecht zu tun) so machen, ähnelt eher der Art, wie Blau- oder andere Bartenwale zu ihrem Futter kommen: Sie lassen das Ozeanwasser durch die Barten strömen und filtern so das Plankton heraus.  Die Wale. Google &amp; Co. filtern lieber den Datenstrom.</p>
+<p>Aber &ldquo;Datenwal&rdquo; klingt nun mal nicht so eklig wie &ldquo;Datenkrake&rdquo;, und so bleibt uns diese doofe Bezeichnung eben erhalten.</p>
+<h3 id="weg-von-den-datenwalen">Weg von den Datenwalen</h3>
+<p>Dass ich das Wort doof finde, bedeutet aber nicht, dass ich die Datensammelei der angeblichen Kraken nicht ernst nähme. Und so habe ich in den letzten Jahren versucht, mein Netzleben privat wie beruflich entsprechend einzurichten.</p>
+<p>Gar nicht mal so einfach, wenn man ein Smartphone von Google, ein iPad von Apple sowie einen Desktop- <del>und einen Klapp</del> rechner (der Laptop läuft inzwischen fehlerlos - das war nicht immer so - unter Ubuntu) mit dem Betriebssystem Windows 10 hat&hellip; Alle drei Betriebssysteme, Android, iOS und Windows 10, haben die unangenehme Eigenschaft, bei jeder Gelegenheit nach Hause telefonieren zu wollen - nur im Dienste <del>der Wahrheitsfindung</del> des reibungslosen Betriebs und im Interesse des Kunden, versteht sich. Nun lässt sich diese Datenübertragung in beiden Betriebssystemen steuern, aber mal ehrlich: Sind Sie sicher, dass Sie alle Datenschutzoptionen gefunden und nach Wunsch eingestellt haben im Dickicht der Einstellungsmenus? Eben.</p>
+<p>Dann zur installierten Software jenseits der Betriebssysteme: Sowohl Google Chrome als auch Microsoft Edge stehen immer wieder im Verdacht, mehr Daten zu sammeln und weiterzugeben, als gut ist. Zum Glück gibt es immer noch <strong>Firefox</strong>, der in der aktuellen Quantum-Version nicht mehr so eine Schnecke ist wie früher. Im aktuellen Einsatz ist jedoch - und da wird der eine oder andere Leser doch staunen - <strong>Chromium</strong> auf dem Linuxrechner und Chrome überall sonst (wobei an der einen oder anderen Stelle auch ein Umstieg auf Ubuntu ansteht), weil er sich in Betriebssystem und Workflows besser einpasst und, wenn man sich ein wenig einfuchst und die entsprechenden Erweiterungen (<strong>DuckDuckGo Privacy Essentials</strong>, <strong>uBlockOrigin</strong> &amp; Co.) nutzt, datenschutztechnisch einigermaßen beherrschbar ist. Der von mir und anderen mit Überraschung wertgeschätzte <strong>Edge</strong>-Browser auf Chromium-Basis hatte jedoch nur ein Gastspiel, weil er nicht auf allen Geräten in meinem Zoo verfügbar ist und mir so die Bookmarkverwaltung unnötig kompliziert machte. In diesem Zusammenhang ein Hinweis: Browser lassen sich inzwischen jederzeit und mit wenig Aufwand wechseln, gelle?</p>
+<p>Dass ich über <strong>Safari</strong> nicht stänkere, liegt übrigens daran, dass der Applebrowser auf iOS-Geräten einfach nicht zu umgehen ist. Selbst, wo in iOS Firefox (oder Chrome) draufsteht, ist Safari drin - und <a href="https://vowe.net/archives/017030.html">Vertrauen in Apple</a> erforderlich.</p>
+<p>Womit wir schon am Übergang zwischen installierter Software und Diensten im Netz wären. <strong>Facebook</strong>, <strong>WhatsApp</strong> und <strong>Instagram</strong> sind schon vor Monaten ersatzlos von allen meinen Geräten und aus meinem Leben geflogen. Und niemand hat etwas vermisst - ich nicht die Dienste, und alle bei Facebook und WhatsApp offenbar mich auch nicht.</p>
+<p>Mist.</p>
+<h3 id="ein-leben-ohne-whatsapp">Ein Leben ohne WhatsApp</h3>
+<p>Kein WhatsApp? Geht das denn? Doch, das geht, wenn auch auf verschiedenen Plattformen: <a href="https://signal.org/">Signal</a>, <a href="https://threema.ch/de/">Threema</a>, innerhalb der iOS-Welt sogar iMessage (wg. Vertrauen in Apple verweise ich auf den vorletzten Absatz). Mit viel Geduld habe ich die wichtigsten Menschen in meinem Leben von WhatsApp weggelotst. <strong>Telegram</strong> dagegen - Achtung, Telegram-User! - ist letztendlich aus einem ganz anderen Grund aus meiner Werkzeugkiste geflogen: Gerade im Sommer 2020 haben sich dort <del>politisch recht ungustiöse Zeitgenossen</del> für meinen Geschmack zu viele Nazis breitgemacht und dürfen ungehindert und unkontrolliert ihr Weltbild verbreiten. In so einer Nachbarschaft will ich nicht unterwegs sein.</p>
+<h3 id="und-sonst-so">Und sonst so&hellip;</h3>
+<p>Für die Suche im Netz habe ich <a href="https://duckduckgo.com">DuckDuckGo</a> statt Google, fürs Zurechtfinden in der Welt <a href="https://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a> statt Google Maps, fürs Bescheidwissen weder Google News noch Microsoft News noch&hellip; (gibt&rsquo;s von Apple überhaupt sowas?), sondern meinen treuen <a href="https://feedly.com">Feedreader</a> - und ein ausgewachsenes Redaktionssystem, wenn ich im Büro bin.</p>
+<p>Meine Mail läuft über meine eigene Domain und einen <a href="https://protonmail.com/">Anbieter aus der Schweiz</a> - alle anderen Adressen, die Menschen möglicherweise noch in ihren Kontaktlisten haben, werden dorthin umgeleitet.</p>
+<p>Und meine in der Cloud gespeicherten Daten werden, soweit nötig, mit <a href="https://www.boxcryptor.com/de">Boxcryptor</a> oder <a href="https://cryptomator.org/">Cryptomator</a> verschlüsselt.</p>
+<h3 id="also-alles-paletti">Also alles paletti?</h3>
+<p>Das ist eben die Frage. Mit all den Vorkehrungen ist leicht sicher(er) fühlen, und ein wenig wichtig machen kann man sich im Freundeskreis immer (&ldquo;Was, Du bist immer noch bei Instagram?&quot;).</p>
+<p>Aber letztlich hängt viel von dem Vertrauen ab, das man dem unsichtbaren Gegenüber im Netz entgegenbringen muss, angefangen bei Apple, Microsoft oder Google, längst nicht zu Ende bei der Frage, ob der Dienst des eigenen Vertrauens die Daten nicht doch bei Amazon zwischenlagert, und letztendlich bei Dingen, die der eigenen Kontrolle entzogen sind und bleiben - denn was nützt mir der Verzicht auf die schicke Technik von GMail, wenn die Kopie meiner Mails im Klartext in der Mailbox eines Korrespondenten liegen, den ich zwar noch von WhatsApp zu Signal quatschen konnte, aber nie im Leben weg von GMail?</p>
+<p>Datensicherheit ist relativ. Na super.</p>
+<p><em>Aktualisiert am 31.08.2020</em></p>
+
+	
+	<p><em><a href="mailto:blog@konstantinklein.com?subject=Mein Kommentar zu 'Google%20und%20der%20ganze%20Rest'">Ihre Meinung dazu?</a></em></p>
+	
+  </div>
+  <footer>
+    
+	<ul class="stats">
+  
+    
+    
+      <li class="tags">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/datenschutz">Datenschutz</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/werkzeug">Werkzeug</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/technik">Technik</a></li>
+          
+        </ul>
+      </li>
+    
+  
+</ul>
+
+	
+  </footer>
+</article>
+
+
+<div class="pagination">
+  
+    <a href="/posts/sommerloch/" class="button"><div class="previous"><div>Sommerloch</div></div></a>
+  
+  
+    <a href="/posts/schmelzpunkt/" class="button"><div class="next"><div>Schmelzpunkt</div></div></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Letzte Artikel</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/setempe.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/gruebel-gruebel-und-studier/">Grübelgrübel und studier</a></h1>
+          <time class="published" datetime="">10.12.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/busstation.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/bloggen-ist-silber/">Bloggen ist Silber...</a></h1>
+          <time class="published" datetime="">30.11.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/fireworks.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/zwanzig/">Zwanzig!!!</a></h1>
+          <time class="published" datetime="">30.10.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/block.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/writers-block-bastlers-chance/">Writer&#39;s block - Bastlers Chance?</a></h1>
+          <time class="published" datetime="">25.10.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/catbuntu.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/buerogemeinschaft/">Bürogemeinschaft</a></h1>
+          <time class="published" datetime="">22.09.2020</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/posts/" class="button">Mehr erfahren</a>
+        </footer>
+      
+    </section>
+  
+
+  
+
+  
+</section>
+
+      <footer id="site-footer">
+<form action="https://duckduckgo.com/">
+  <input type="text" name="q">
+  <input type="hidden" name="sites" value="konstantinklein.com">
+  <button class="button searchinput" type="submit">Mit DuckDuckGo suchen</button>
+</form>
+  
+      <ul class="socnet-icons">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/konstantinklein" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bonn.social/@konstantinklein" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:blog@konstantinklein.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2018-2020
+      
+        Konstantin Klein, Planet Erde
+      
+    . <br />
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0</a><br />
+    Thema : <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>Ein <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 Port</a> | Unterstützt von: <a href='https://gohugo.io/' title='0.68.3' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+  <p class="h-card vcard">
+	<a href=https://konstantinklein.com/ class="p-name u-url url author metatag" rel="me">
+				Konstantin Klein
+	</a> /
+	<a class="p-nickname u-email email metatag" rel="me" href="mailto:mail@konstantinklein.com">
+				Konstantin
+	</a> 
+	<img class="u-photo" src="/images/bluemesquare.jpg" alt=""/>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+
+      <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.e0c399b948d3cf5c3a5e3badb94023d0b064a19ac39fd8cd79fb9f57fa4d1091.js" integrity="sha256-4MOZuUjTz1w6XjutuUAj0LBkoZrDn9jNefufV/pNEJE="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

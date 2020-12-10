@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/konstantinklein
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://konstantinklein.com
+  * I am konstantinklein (https://keybase.io/konstantinklein) on keybase.
+  * I have a public key ASCNWBfgwcaX1Q5D3GN-WxrD7XFMEt5sYqLBa1sUNao-swo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208d5817e0c1c697d50e43dc637e5b1ac3ed714c12de6c62a2c16b5b1435aa3eb30a",
+      "host": "keybase.io",
+      "kid": "01208d5817e0c1c697d50e43dc637e5b1ac3ed714c12de6c62a2c16b5b1435aa3eb30a",
+      "uid": "641649385e740feb4e8315570c6c8119",
+      "username": "konstantinklein"
+    },
+    "merkle_root": {
+      "ctime": 1565451968,
+      "hash": "e2d0cdf8b0995792ff44a7f6d2c7101c6cd9ea31b2589711388d7b7cf5b92bbdaf510e34970844e3d9d850d808c8f61f1de53f948e6ea031f5b47aeaaf0316a4",
+      "hash_meta": "aface679e7843a11d970fe7a2f788b60d773027d2f7b266bb78e3649f79bd846",
+      "seqno": 5985254
+    },
+    "service": {
+      "entropy": "1J8XWQhM02GVUAtvxYfPA1gb",
+      "hostname": "konstantinklein.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1565451986,
+  "expire_in": 504576000,
+  "prev": "0c27b10a30a562a6807c43b6ef04c4def4c756ed0ac4b0afceee011a018b186f",
+  "seqno": 30,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjVgX4MHGl9UOQ9xjflsaw+1xTBLebGKiwWtbFDWqPrMKp3BheWxvYWTESpcCHsQgDCexCjClYqaAfEO27wTE3vTHVu0KxLCvzu4BGgGLGG/EIChzBv1CtxQryXciZicqCED0RQjRxXpXh6NceulssTmCAgHCo3NpZ8RAEjrEOAgV99JmafbzdmjWPr4T3SDn9YfJg7mQ6sAbnruTU1lx0l1kL4iNyuQtbnC8ISd2E1t4e8BnG/RtkXr4AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMm3Yx7rkGRncUBDNP5WfAxcJRPpsG0Z3h9MBf/H63+0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/konstantinklein
+
+==================================================================

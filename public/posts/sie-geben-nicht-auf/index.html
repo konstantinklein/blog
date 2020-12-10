@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="de">
+  <head>
+  <meta charset="utf-8">
+<title>Sie geben nicht auf - Konstantin Klein</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="generator" content="Hugo 0.68.3" /><meta itemprop="name" content="Sie geben nicht auf">
+<meta itemprop="description" content="Es liegt wohl daran, dass sie Beamte und/oder sonstige Staatsbedienstete sind, die schließlich dafür bezahlt werden, Dinge zu tun, deren Sinn sich nicht sofort erschließt nicht aufzugeben. Jedenfalls fand ich im (durchaus empfehlenswerten) Bürger-CERT-Newsletter des Bundesamtes für Sicherheit in der Informationstechnik diese Woche den Hinweis auf diesen Artikel mit der Jubel-Überschrift:
+ Gewusst wie: E-Mail-Verschlüsselung endlich einfach
+ &ldquo;Endlich einfach&rdquo;, so, so.
+Damit wir uns nicht falsch verstehen: Eine Vereinfachung (oder mehrere) ist, was PGP-Verschlüsselung im Mailverkehr am aller-aller-allerdringendsten braucht.">
+<meta itemprop="datePublished" content="2018-09-28T08:58:59&#43;02:00" />
+<meta itemprop="dateModified" content="2018-09-28T08:58:59&#43;02:00" />
+<meta itemprop="wordCount" content="432">
+
+
+
+<meta itemprop="keywords" content="Werkzeug,Datenschutz," /><meta property="og:title" content="Sie geben nicht auf" />
+<meta property="og:description" content="Es liegt wohl daran, dass sie Beamte und/oder sonstige Staatsbedienstete sind, die schließlich dafür bezahlt werden, Dinge zu tun, deren Sinn sich nicht sofort erschließt nicht aufzugeben. Jedenfalls fand ich im (durchaus empfehlenswerten) Bürger-CERT-Newsletter des Bundesamtes für Sicherheit in der Informationstechnik diese Woche den Hinweis auf diesen Artikel mit der Jubel-Überschrift:
+ Gewusst wie: E-Mail-Verschlüsselung endlich einfach
+ &ldquo;Endlich einfach&rdquo;, so, so.
+Damit wir uns nicht falsch verstehen: Eine Vereinfachung (oder mehrere) ist, was PGP-Verschlüsselung im Mailverkehr am aller-aller-allerdringendsten braucht." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://konstantinklein.com/posts/sie-geben-nicht-auf/" />
+<meta property="article:published_time" content="2018-09-28T08:58:59+02:00" />
+<meta property="article:modified_time" content="2018-09-28T08:58:59+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sie geben nicht auf"/>
+<meta name="twitter:description" content="Es liegt wohl daran, dass sie Beamte und/oder sonstige Staatsbedienstete sind, die schließlich dafür bezahlt werden, Dinge zu tun, deren Sinn sich nicht sofort erschließt nicht aufzugeben. Jedenfalls fand ich im (durchaus empfehlenswerten) Bürger-CERT-Newsletter des Bundesamtes für Sicherheit in der Informationstechnik diese Woche den Hinweis auf diesen Artikel mit der Jubel-Überschrift:
+ Gewusst wie: E-Mail-Verschlüsselung endlich einfach
+ &ldquo;Endlich einfach&rdquo;, so, so.
+Damit wir uns nicht falsch verstehen: Eine Vereinfachung (oder mehrere) ist, was PGP-Verschlüsselung im Mailverkehr am aller-aller-allerdringendsten braucht."/>
+<meta name="twitter:site" content="@konstantinklein"/>
+<link rel="stylesheet" href="/css/bundle.min.9dd2c565537d7f5318326fa8197bff9d51e0b29c835d0e399e87f15b891288f7.css" integrity="sha256-ndLFZVN9f1MYMm&#43;oGXv/nVHgspyDXQ45nofxW4kSiPc=">
+        <link rel="stylesheet" href="/css/add-on.css">
+        <link rel="stylesheet" href="/css/custom.css">
+  <link rel='canonical' href='https://konstantinklein.com/'>
+  <link rel="alternate" href="https://konstantinklein.com/index.xml" type="application/rss+xml">
+  <link rel="me" href="https://konstantinklein.com/" />
+  <link rel="me" href="https://twitter.com/konstantinklein/" />
+  <link rel="me" href="https://bonn.social/@konstantinklein" />
+  <link rel="me" href="https://keybase.io/konstantinklein" />
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+            posts
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        
+          
+          
+            <a href="/" class="link"><i class='fas fa-home'></i> Start</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/about/" class="link"><i class='far fa-id-card'></i> Über</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/datenschutz/" class="link"><i class='far fa-compass'></i> Datenschutz</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/impressum/" class="link"><i class='far fa-newspaper'></i> Impressum</a>
+          
+        
+      
+        
+          
+          
+            <a href="/pages/kontakt/" class="link"><i class='far fa-envelope'></i> Kontakt</a>
+          
+        
+      
+     </menu>
+    
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Sie%20geben%20nicht%20auf&amp;url=https%3a%2f%2fkonstantinklein.com%2fposts%2fsie-geben-nicht-auf%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkonstantinklein.com%2fposts%2fsie-geben-nicht-auf%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fkonstantinklein.com%2fposts%2fsie-geben-nicht-auf%2f&amp;title=Sie%20geben%20nicht%20auf" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkonstantinklein.com%2fposts%2fsie-geben-nicht-auf%2f&amp;description=Sie%20geben%20nicht%20auf" target="_blank" rel="noopener" class="share-btn pinterest">
+          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Schauen%20Sie%20sich%20diesen%20Beitrag%20an&amp;body=https%3a%2f%2fkonstantinklein.com%2fposts%2fsie-geben-nicht-auf%2f" target="_blank" class="share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" class="hidden-single-column">
+  <a href="/"><img src="/images/logo.gif" class="square" width="90" alt="K[journ]" /></a>
+  <header>
+    <h1>Konstantin Klein</h1>
+  </header>
+  <main>
+    <p>Irgendwie doch ein Blog. Oder so.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/konstantinklein" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bonn.social/@konstantinklein" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:blog@konstantinklein.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/posts/sie-geben-nicht-auf/">Sie geben nicht auf</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2018-09-28 08:58:59 &#43;0200 CEST">
+      28.09.2018
+    </time>
+    <span class="author"></span>
+    
+      <p>3 Minuten</p>
+    
+  </div>
+</header>
+
+  
+
+  <div class="content">
+    <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/secure.jpg'/>
+    
+  </figure>
+</div>
+	<p>Es liegt wohl daran, dass sie Beamte und/oder sonstige Staatsbedienstete sind, die schließlich dafür bezahlt werden, <del>Dinge zu tun, deren Sinn sich nicht sofort erschließt</del> nicht aufzugeben. Jedenfalls fand ich im (durchaus empfehlenswerten) <a href="https://www.bsi-fuer-buerger.de/BSIFB/DE/Service/Buerger-CERT/Sicher-informiert/Newsletter.html">Bürger-CERT-Newsletter</a> des <a href="https://bsi.bund.de">Bundesamtes für Sicherheit in der Informationstechnik</a> diese Woche den Hinweis auf <a href="https://www.bsi-fuer-buerger.de/BSIFB/DE/Service/Aktuell/Informationen/Artikel/einfache_email_verschluesselung.html">diesen Artikel</a> mit der Jubel-Überschrift:</p>
+<blockquote>
+<p>Gewusst wie: E-Mail-Verschlüsselung endlich einfach</p>
+</blockquote>
+<p>&ldquo;Endlich einfach&rdquo;, so, so.</p>
+<p>Damit wir uns nicht falsch verstehen: Eine Vereinfachung (oder mehrere) ist, was PGP-Verschlüsselung im Mailverkehr am aller-aller-allerdringendsten braucht. Das ganze Gewese und Gemache mit öffentlichem und privatem Schlüssel, mit dem Austausch des öffentlichen Schlüssels beider Partner, bevor die Verschlüsselung überhaupt losgehen kann, mit der Verwaltung von Schlüsselringen und Schlüsselwiderrufen&hellip; was auch immer es ist, <em>einfach</em> ist es nicht.</p>
+<h3 id="vielfältige-versuche">Vielfältige Versuche</h3>
+<p>Entsprechend vielfältig sind die Versuche, mit denen Entwickler und private Anbieter wie <a href="https://gmx.net">GMX</a>, <a href="https://web.de">Web.de</a> und <a href="https://mailbox.org">mailbox.org</a> die Einrichtung der Verschlüsselung, die Erstellung der Schlüssel und die Verteilung zumindest über hausinterne Schlüsselserver automatisiert haben - bis hin zu dem Stadium, in dem alles so automatisiert ist, dass der Nutzer keine Chance hat, irgendwas zu unternehmen, wenn etwas schief läuft.</p>
+<p>Daran versucht sich jetzt auch das <a href="https://www.bsi-fuer-buerger.de/DE/Themen/Kryptografie_Kryptotechnologie/Kryptografie/EasyGPG/EasyGPG_node.html">BSI-Projekt: &ldquo;EasyGPG&rdquo; - E-Mail Verschlüsselung vereinfacht</a>. Und das soll so gehen:</p>
+<blockquote>
+<ol>
+<li>Private und öffentliche Schlüssel werden automatisch erzeugt.</li>
+<li>Öffentliche Schlüssel werden automatisch verteilt.</li>
+<li>Nachrichten werden per Voreinstellung verschlüsselt und signiert.</li>
+<li>Veröffentlichung und Bereitstellung der Software.</li>
+</ol>
+</blockquote>
+<p>Fein. Doch, ich begrüße das auf das allerschärfste™. Ich freue mich sogar, dass meine <em>tax Euros at work</em> für sowas eingesetzt werden.</p>
+<h3 id="aber">Aber&hellip;</h3>
+<p>Aber ich fürchte, es wird nichts nützen. Denn einerseits interessiert sich nur ein schandhaft geringer Teil der Netzbevölkerung in meiner Umgebung überhaupt dafür, seine Mails sicherer zu machen. Nur 0,2 Prozent der Menschen in meinem Addressbuch haben einen PGP-Schlüssel (und da reden wir noch nicht von der tatsächlichen Nutzung), weit entfernt von den 13 Prozent der Deutschen, die angeben (in jedem Sinne des Wortes), Mailverschlüsselung zu nutzen.</p>
+<p>Andererseits nützen die mir Wichtigsten im Netz durchaus verschlüsselte Kommunikationswege. Sie heißen Messenger, und mein liebster heißt <a href="https://signal.org">Signal</a>. Seit diese Messenger mehr können als nur kurze Textnachrichten, seit sie auch Fotos und Dokumente verschlüsseln und transportieren, sehen die Menschen in meiner Umgebung noch viel weniger die Notwendigkeit für Mail-Verschlüsselung.</p>
+<h3 id="nachtrag-schuss-in-den-ofen">Nachtrag: Schuss in den Ofen</h3>
+<p>Am Einheiztag (3. Oktober, Tag, an dem ich die Heizperiode 18/19 eröffnet habe, aber das gehört nicht hierher) berichtet heise Security, wie ein <em>anderer</em> Versuch, PGP leichter nutzbar zu machen, grandios in die Hose geht: <a href="https://www.heise.de/security/meldung/c-t-deckt-auf-Enigmail-verschickt-Krypto-Mails-im-Klartext-4180405.html">c&rsquo;t deckt auf: Enigmail verschickt Krypto-Mails im Klartext</a>. Betrifft die aktuelle Enigmail-Version für Windows im sog. <em>Junior Mode</em>, also dem, der PGP endlich einfach machen soll; Mac- und Linux-User haben das Problem offenbar nicht.</p>
+
+	
+	<p><em><a href="mailto:blog@konstantinklein.com?subject=Mein Kommentar zu 'Sie%20geben%20nicht%20auf'">Ihre Meinung dazu?</a></em></p>
+	
+  </div>
+  <footer>
+    
+	<ul class="stats">
+  
+    
+    
+      <li class="tags">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/werkzeug">Werkzeug</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://konstantinklein.com/tags/datenschutz">Datenschutz</a></li>
+          
+        </ul>
+      </li>
+    
+  
+</ul>
+
+	
+  </footer>
+</article>
+
+
+<div class="pagination">
+  
+    <a href="/posts/hausputz/" class="button"><div class="previous"><div>Hausputz</div></div></a>
+  
+  
+    <a href="/posts/daten-sparen/" class="button"><div class="next"><div>Daten sparen</div></div></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Letzte Artikel</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/setempe.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/gruebel-gruebel-und-studier/">Grübelgrübel und studier</a></h1>
+          <time class="published" datetime="">10.12.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/busstation.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/bloggen-ist-silber/">Bloggen ist Silber...</a></h1>
+          <time class="published" datetime="">30.11.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/fireworks.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/zwanzig/">Zwanzig!!!</a></h1>
+          <time class="published" datetime="">30.10.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/block.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/writers-block-bastlers-chance/">Writer&#39;s block - Bastlers Chance?</a></h1>
+          <time class="published" datetime="">25.10.2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          <div class='entry-cover'>
+  <figure class='container cover-normal'>
+    <img src='/images/catbuntu.jpg'/>
+    
+  </figure>
+</div>
+		  
+
+        </section>
+        <header>
+          <h1><a href="/posts/buerogemeinschaft/">Bürogemeinschaft</a></h1>
+          <time class="published" datetime="">22.09.2020</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/posts/" class="button">Mehr erfahren</a>
+        </footer>
+      
+    </section>
+  
+
+  
+
+  
+</section>
+
+      <footer id="site-footer">
+<form action="https://duckduckgo.com/">
+  <input type="text" name="q">
+  <input type="hidden" name="sites" value="konstantinklein.com">
+  <button class="button searchinput" type="submit">Mit DuckDuckGo suchen</button>
+</form>
+  
+      <ul class="socnet-icons">
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/konstantinklein" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bonn.social/@konstantinklein" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:blog@konstantinklein.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2018-2020
+      
+        Konstantin Klein, Planet Erde
+      
+    . <br />
+	<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0</a><br />
+    Thema : <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>Ein <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 Port</a> | Unterstützt von: <a href='https://gohugo.io/' title='0.68.3' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+  <p class="h-card vcard">
+	<a href=https://konstantinklein.com/ class="p-name u-url url author metatag" rel="me">
+				Konstantin Klein
+	</a> /
+	<a class="p-nickname u-email email metatag" rel="me" href="mailto:mail@konstantinklein.com">
+				Konstantin
+	</a> 
+	<img class="u-photo" src="/images/bluemesquare.jpg" alt=""/>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+
+      <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.e0c399b948d3cf5c3a5e3badb94023d0b064a19ac39fd8cd79fb9f57fa4d1091.js" integrity="sha256-4MOZuUjTz1w6XjutuUAj0LBkoZrDn9jNefufV/pNEJE="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

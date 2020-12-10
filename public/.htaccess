@@ -1,0 +1,19 @@
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+Header set Content-Security-Policy "default-src 'none'; img-src 'self'; font-src 'self'; script-src 'self' 'nonce-7f26c2726c'; frame-src 'self' https://mastodon.social https://social.tchncs.de https://chaos.social; style-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action https://duckduckgo.com"
+Header set Referrer-Policy: strict-origin-when-cross-origin
+Header set X-Frame-Options: deny
+Header set X-Content-Type-Options: nosniff
+
+ErrorDocument 404 /404.html
+
+Redirect 301 /feed https://konstantinklein.com/index.xml
+
+Redirect 301 /about https://konstantinklein.com/pages/about
+Redirect 301 /impressum https://konstantinklein.com/pages/impressum
+Redirect 301 /datenschutz https://konstantinklein.com/pages/datenschutz
+Redirect 301 /kontakt https://konstantinklein.com/pages/kontakt
+Redirect 301 /page/kontakt https://konstantinklein.com/pages/kontakt
+Redirect 301 /pages/kolophon https://konstantinklein.com/pages/about
+Redirect 301 /index.xml/ https://konstantinklein.com/index.xml
+Redirect 301 /index.xmlatom/ https://konstantinklein.com/index.xml
+Redirect 301 /index.xmlatom https://konstantinklein.com/index.xml
