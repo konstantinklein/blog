@@ -3,7 +3,6 @@ authors = []
 categories = ["Blog"]
 cover = ""
 date = 2020-12-09T23:00:00Z
-draft = true
 tags = ["blog"]
 title = "Test - nicht beachten"
 
